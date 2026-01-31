@@ -20,13 +20,12 @@ def initial_shot():
         access_token_secret=keys["ats"]
     )
 
-    # 記念すべき初弾のポスト内容
-    # 資料「ネタ」の管理会社「蛇」っぽいトーンだ
-    tweet_text = "管理会社『蛇』より。スカイマンション（空中開発タカラ）の観測を開始しました。入居者の皆さんは、実存の漏洩と配管の歪みに十分注意してください。イキスギィ！ #スカイマンション #蛇"
+    # ポスト内容
+    tweet_text = "共同創作プラットフォーム「sigi」では、世界観構築（ユニバースビルディング）を共に行う初期メンバーを募集しています。 #sigi #共同創作 #世界観設定"
 
     try:
         client.create_tweet(text=tweet_text)
-        print("初弾発射成功。ネットの海が孕んだぜ。")
+        print("ポスト成功")
     except Exception as e:
         print(f"不発（エラー）: {e}")
 

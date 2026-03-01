@@ -1,0 +1,26 @@
+name: JetEngine Sync
+
+on:
+  workflow_dispatch: # 手動で実行ボタンを押せるようにする設定
+
+jobs:
+  export_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch JetEngine Data
+        run: |
+          # WordPressからデータを取得してファイルに保存する
+          curl -X GET "https://sigi-universe.com//wp-json/wp/v2/posts" \
+          -u "${{ secrets.WP_USERNAME }}:${{ secrets.WP_PASSWORD }}" \
+          -o data.json
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git commit -m "Update JetEngine data" || exit 0
+          git push

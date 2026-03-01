@@ -1,26 +1,62 @@
-name: JetEngine Sync
+name: JetEngine Sync to YAML
 
 on:
-  workflow_dispatch: # 手動で実行ボタンを押せるようにする設定
+  workflow_dispatch: # 手動実行用ボタン
 
 jobs:
-  export_data:
+  sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 変更を保存するための権限
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Fetch JetEngine Data
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install PyYAML requests
+
+      - name: Fetch and Convert to YAML
+        env:
+          WP_USER: ${{ secrets.WP_USERNAME }}
+          WP_PASS: ${{ secrets.WP_PASSWORD }}
         run: |
-          # WordPressからデータを取得してファイルに保存する
-          curl -X GET "https://sigi-universe.com//wp-json/wp/v2/posts" \
-          -u "${{ secrets.WP_USERNAME }}:${{ secrets.WP_PASSWORD }}" \
-          -o data.json
+          python - <<EOF
+          import requests
+          import yaml
+          import os
+
+          # 設定
+          url = "https://sigi-universe.com/wp-json/wp/v2/posts"
+          auth = (os.getenv('WP_USER'), os.getenv('WP_PASS'))
+
+          # データの取得
+          response = requests.get(url, auth=auth)
+          if response.status_code != 200:
+              print(f"Error: {response.status_code}")
+              exit(1)
+          
+          posts = response.json()
+
+          # 保存用フォルダの作成
+          if not os.path.exists('content'):
+              os.makedirs('content')
+
+          # 各記事をYAMLとして保存
+          for post in posts:
+              file_name = f"content/post-{post['id']}.yaml"
+              with open(file_name, 'w', encoding='utf-8') as f:
+                  yaml.dump(post, f, allow_unicode=True, sort_keys=False)
+          EOF
 
       - name: Commit and Push
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data.json
-          git commit -m "Update JetEngine data" || exit 0
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add content/*.yaml
+          git commit -m "Update post data to YAML" || echo "No changes to commit"
           git push

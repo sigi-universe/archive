@@ -1,4 +1,4 @@
-name: JetEngine Sync Final
+name: JetEngine Metasheet Sync
 
 on:
   workflow_dispatch: 
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install PyYAML requests
 
-      - name: Fetch and Convert
+      - name: Fetch and Structure Data
         env:
           WP_USER: ${{ secrets.WP_USERNAME }}
           WP_PASS: ${{ secrets.WP_PASSWORD }}
@@ -30,18 +30,15 @@ jobs:
           import yaml
           import os
 
-          url = "https://sigi-universe.com/wp-json/wp/v2/posts"
-          # ブラウザのふりをするための設定
-          headers = {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-          }
-          auth = (os.getenv('WP_USER'), os.getenv('WP_PASS'))
+          # 設定
+          SITE_URL = "https://sigi-universe.com"
+          # metasheet という投稿タイプを対象に、関連データ（_embed）を含めて取得
+          API_URL = f"{SITE_URL}/wp-json/wp/v2/metasheet?_embed&per_page=100"
+          AUTH = (os.getenv('WP_USER'), os.getenv('WP_PASS'))
+          HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
           try:
-              # headersを追加してリクエスト
-              response = requests.get(url, auth=auth, headers=headers)
-              print(f"Status Code: {response.status_code}")
-              
+              response = requests.get(API_URL, auth=AUTH, headers=HEADERS)
               response.raise_for_status()
               posts = response.json()
 
@@ -49,10 +46,33 @@ jobs:
                   os.makedirs('content')
 
               for post in posts:
-                  file_name = f"content/post-{post['id']}.yaml"
+                  # データの整形開始
+                  structured_data = {
+                      'title': post['title']['rendered'],
+                      'slug': post['slug'],
+                      'id_hierarchy': post.get('id_hierarchy'),
+                      'id_uniquetag': post.get('id_uniquetag'),
+                      'year_range': {
+                          'start': post.get('id_startyear'),
+                          'end': post.get('endyear')
+                      },
+                      # WikiCat タクソノミーの抽出
+                      'categories': [term['name'] for term in post.get('_embedded', {}).get('wp:term', [[]])[0]],
+                      # メタフィールド（ルール・制約など）
+                      'constraints': post.get('the_rule_constraints', []),
+                      # リレーション（※APIに露出している場合）
+                      'relations': {
+                          'spatial_anchor': post.get('spatial_anchor_ids', []),
+                          'dependencies_parent': post.get('dependencies_parent_ids', [])
+                      }
+                  }
+
+                  file_name = f"content/{post['slug']}.yaml"
                   with open(file_name, 'w', encoding='utf-8') as f:
-                      yaml.dump(post, f, allow_unicode=True, sort_keys=False)
-              print("Success!")
+                      # 読みやすく、日本語もそのまま表示されるように書き出し
+                      yaml.dump(structured_data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+              
+              print(f"Successfully synced {len(posts)} items.")
           except Exception as e:
               print(f"Error: {e}")
               exit(1)
@@ -63,5 +83,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add content/*.yaml
-          git commit -m "Update post data to YAML" || echo "No changes to commit"
+          git commit -m "Update formatted metasheet data" || echo "No changes to commit"
           git push

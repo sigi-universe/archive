@@ -1,4 +1,4 @@
-name: JetEngine Relation Sync
+name: JetEngine Structured Sync
 
 on:
   workflow_dispatch: 
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install PyYAML requests
 
-      - name: Fetch JetEngine Relations
+      - name: Fetch and Convert
         env:
           WP_USER: ${{ secrets.WP_USERNAME }}
           WP_PASS: ${{ secrets.WP_PASSWORD }}
@@ -30,16 +30,15 @@ jobs:
           import yaml
           import os
 
-          # ここに JetEngine の Relation を含む投稿データを取りに行きます
-          url = "https://sigi-universe.com/wp-json/wp/v2/posts"
+          # 成功した実績のあるURLを使用
+          url = "https://sigi-universe.com/wp-json/wp/v2/posts?_embed"
           headers = {
               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
           }
           auth = (os.getenv('WP_USER'), os.getenv('WP_PASS'))
 
           try:
-              # _embed を追加することで、関連データ（Relation）が含まれやすくなります
-              response = requests.get(url + "?_embed", auth=auth, headers=headers)
+              response = requests.get(url, auth=auth, headers=headers)
               response.raise_for_status()
               posts = response.json()
 
@@ -47,14 +46,26 @@ jobs:
                   os.makedirs('content')
 
               for post in posts:
-                  # ファイル名は記事のスラッグ（URLの一部）を使用
-                  slug = post.get('slug', str(post['id']))
-                  file_name = f"content/{slug}.yaml"
-                  
-                  # 保存するデータを選別（不要な HTML 等を削ることも可能）
+                  # データの整理（.get()を使うことで、項目がなくてもエラーにならないようにします）
+                  structured = {
+                      'title': post.get('title', {}).get('rendered', ''),
+                      'slug': post.get('slug', str(post.get('id'))),
+                      'hierarchy': post.get('id_hierarchy'),
+                      'unique_tag': post.get('id_uniquetag'),
+                      'start_year': post.get('id_startyear'),
+                      'end_year': post.get('endyear'),
+                      # 画像にあった「the_rule_constraints」などをそのまま抽出
+                      'constraints': post.get('the_rule_constraints', []),
+                      # 全データも念のため残す（不要ならここを消すとスッキリします）
+                      'raw_data': post 
+                  }
+
+                  file_name = f"content/{structured['slug']}.yaml"
                   with open(file_name, 'w', encoding='utf-8') as f:
-                      yaml.dump(post, f, allow_unicode=True, sort_keys=False)
-              print("YAML conversion successful.")
+                      # 日本語が文字化けしない設定
+                      yaml.dump(structured, f, allow_unicode=True, sort_keys=False)
+              
+              print("Conversion successful.")
           except Exception as e:
               print(f"Error: {e}")
               exit(1)
@@ -65,5 +76,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add content/*.yaml
-          git commit -m "Update post relations to YAML" || echo "No changes to commit"
+          git commit -m "Update post data safely" || echo "No changes to commit"
           git push

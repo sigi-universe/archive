@@ -1,13 +1,13 @@
-name: JetEngine Sync to YAML
+name: JetEngine Sync Debug
 
 on:
-  workflow_dispatch: # 手動実行用ボタン
+  workflow_dispatch: 
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 変更を保存するための権限
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install PyYAML requests
 
-      - name: Fetch and Convert to YAML
+      - name: Fetch and Convert
         env:
           WP_USER: ${{ secrets.WP_USERNAME }}
           WP_PASS: ${{ secrets.WP_PASSWORD }}
@@ -30,27 +30,37 @@ jobs:
           import yaml
           import os
 
-          # 設定
           url = "https://sigi-universe.com/wp-json/wp/v2/posts"
-          auth = (os.getenv('WP_USER'), os.getenv('WP_PASS'))
+          user = os.getenv('WP_USER')
+          pw = os.getenv('WP_PASS')
 
-          # データの取得
-          response = requests.get(url, auth=auth)
-          if response.status_code != 200:
-              print(f"Error: {response.status_code}")
+          print(f"Attempting to connect to: {url}")
+          print(f"User check: {'OK' if user else 'MISSING'}")
+          print(f"Password check: {'OK' if pw else 'MISSING'}")
+
+          try:
+              response = requests.get(url, auth=(user, pw))
+              print(f"Status Code: {response.status_code}")
+              
+              if response.status_code == 401:
+                  print("Error: ログインに失敗しました。パスワードかユーザー名が違います。")
+              elif response.status_code == 404:
+                  print("Error: URLが間違っているか、REST APIが無効です。")
+              
+              response.raise_for_status()
+              posts = response.json()
+
+              if not os.path.exists('content'):
+                  os.makedirs('content')
+
+              for post in posts:
+                  file_name = f"content/post-{post['id']}.yaml"
+                  with open(file_name, 'w', encoding='utf-8') as f:
+                      yaml.dump(post, f, allow_unicode=True, sort_keys=False)
+              print("Done!")
+          except Exception as e:
+              print(f"Detailed Error: {e}")
               exit(1)
-          
-          posts = response.json()
-
-          # 保存用フォルダの作成
-          if not os.path.exists('content'):
-              os.makedirs('content')
-
-          # 各記事をYAMLとして保存
-          for post in posts:
-              file_name = f"content/post-{post['id']}.yaml"
-              with open(file_name, 'w', encoding='utf-8') as f:
-                  yaml.dump(post, f, allow_unicode=True, sort_keys=False)
           EOF
 
       - name: Commit and Push

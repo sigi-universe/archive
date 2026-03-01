@@ -1,133 +1,141 @@
-id: 1
-date: '2025-09-21T09:06:13'
-date_gmt: '2025-09-21T09:06:13'
-guid:
-  rendered: http://sigi-universe.com/?p=1
-modified: '2025-09-21T09:06:13'
-modified_gmt: '2025-09-21T09:06:13'
+title: Hello world!
 slug: hello-world
-status: publish
-type: post
-link: https://sigi-universe.com/hello-world/
-title:
-  rendered: Hello world!
-content:
-  rendered: '
+hierarchy: null
+unique_tag: null
+start_year: null
+end_year: null
+constraints: []
+raw_data:
+  id: 1
+  date: '2025-09-21T09:06:13'
+  date_gmt: '2025-09-21T09:06:13'
+  guid:
+    rendered: http://sigi-universe.com/?p=1
+  modified: '2025-09-21T09:06:13'
+  modified_gmt: '2025-09-21T09:06:13'
+  slug: hello-world
+  status: publish
+  type: post
+  link: https://sigi-universe.com/hello-world/
+  title:
+    rendered: Hello world!
+  content:
+    rendered: '
 
-    <p>Welcome to WordPress. This is your first post. Edit or delete it, then start
-    writing!</p>
+      <p>Welcome to WordPress. This is your first post. Edit or delete it, then start
+      writing!</p>
 
-    '
-  protected: false
-excerpt:
-  rendered: '<p>Welcome to WordPress. Thi&hellip;</p>
+      '
+    protected: false
+  excerpt:
+    rendered: '<p>Welcome to WordPress. Thi&hellip;</p>
 
-    '
-  protected: false
-author: 1
-featured_media: 0
-comment_status: open
-ping_status: open
-sticky: false
-template: ''
-format: standard
-meta:
-  _jf_save_progress: ''
-  footnotes: ''
-categories:
-- 1
-tags: []
-class_list:
-- post-1
-- post
-- type-post
-- status-publish
-- format-standard
-- hentry
-- category-uncategorized
-_links:
-  self:
-  - href: https://sigi-universe.com/wp-json/wp/v2/posts/1
-    targetHints:
-      allow:
-      - GET
-      - POST
-      - PUT
-      - PATCH
-      - DELETE
-  collection:
-  - href: https://sigi-universe.com/wp-json/wp/v2/posts
-  about:
-  - href: https://sigi-universe.com/wp-json/wp/v2/types/post
-  author:
-  - embeddable: true
-    href: https://sigi-universe.com/wp-json/wp/v2/users/1
-  replies:
-  - embeddable: true
-    href: https://sigi-universe.com/wp-json/wp/v2/comments?post=1
-  version-history:
-  - count: 0
-    href: https://sigi-universe.com/wp-json/wp/v2/posts/1/revisions
-  wp:attachment:
-  - href: https://sigi-universe.com/wp-json/wp/v2/media?parent=1
-  wp:term:
-  - taxonomy: category
-    embeddable: true
-    href: https://sigi-universe.com/wp-json/wp/v2/categories?post=1
-  - taxonomy: post_tag
-    embeddable: true
-    href: https://sigi-universe.com/wp-json/wp/v2/tags?post=1
-  curies:
-  - name: wp
-    href: https://api.w.org/{rel}
-    templated: true
-_embedded:
-  author:
-  - id: 1
-    name: sigi-universe
-    url: http://sigi-universe.com
-    description: ''
-    link: https://sigi-universe.com/author/sigi-universe/
-    slug: sigi-universe
-    avatar_urls:
-      '24': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=24&d=mm&r=g
-      '48': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=48&d=mm&r=g
-      '96': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=96&d=mm&r=g
-    _links:
-      self:
-      - href: https://sigi-universe.com/wp-json/wp/v2/users/1
-        targetHints:
-          allow:
-          - GET
-          - POST
-          - PUT
-          - PATCH
-          - DELETE
-      collection:
-      - href: https://sigi-universe.com/wp-json/wp/v2/users
-  wp:term:
-  - - id: 1
-      link: https://sigi-universe.com/category/uncategorized/
-      name: Uncategorized
-      slug: uncategorized
-      taxonomy: category
+      '
+    protected: false
+  author: 1
+  featured_media: 0
+  comment_status: open
+  ping_status: open
+  sticky: false
+  template: ''
+  format: standard
+  meta:
+    _jf_save_progress: ''
+    footnotes: ''
+  categories:
+  - 1
+  tags: []
+  class_list:
+  - post-1
+  - post
+  - type-post
+  - status-publish
+  - format-standard
+  - hentry
+  - category-uncategorized
+  _links:
+    self:
+    - href: https://sigi-universe.com/wp-json/wp/v2/posts/1
+      targetHints:
+        allow:
+        - GET
+        - POST
+        - PUT
+        - PATCH
+        - DELETE
+    collection:
+    - href: https://sigi-universe.com/wp-json/wp/v2/posts
+    about:
+    - href: https://sigi-universe.com/wp-json/wp/v2/types/post
+    author:
+    - embeddable: true
+      href: https://sigi-universe.com/wp-json/wp/v2/users/1
+    replies:
+    - embeddable: true
+      href: https://sigi-universe.com/wp-json/wp/v2/comments?post=1
+    version-history:
+    - count: 0
+      href: https://sigi-universe.com/wp-json/wp/v2/posts/1/revisions
+    wp:attachment:
+    - href: https://sigi-universe.com/wp-json/wp/v2/media?parent=1
+    wp:term:
+    - taxonomy: category
+      embeddable: true
+      href: https://sigi-universe.com/wp-json/wp/v2/categories?post=1
+    - taxonomy: post_tag
+      embeddable: true
+      href: https://sigi-universe.com/wp-json/wp/v2/tags?post=1
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+  _embedded:
+    author:
+    - id: 1
+      name: sigi-universe
+      url: http://sigi-universe.com
+      description: ''
+      link: https://sigi-universe.com/author/sigi-universe/
+      slug: sigi-universe
+      avatar_urls:
+        '24': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=24&d=mm&r=g
+        '48': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=48&d=mm&r=g
+        '96': https://secure.gravatar.com/avatar/f7fdbc747f011f6f24fa68acaca72fa91ef09753c4f5df4de035fe814aa386d4?s=96&d=mm&r=g
       _links:
         self:
-        - href: https://sigi-universe.com/wp-json/wp/v2/categories/1
+        - href: https://sigi-universe.com/wp-json/wp/v2/users/1
           targetHints:
             allow:
             - GET
             - POST
             - PUT
             - PATCH
+            - DELETE
         collection:
-        - href: https://sigi-universe.com/wp-json/wp/v2/categories
-        about:
-        - href: https://sigi-universe.com/wp-json/wp/v2/taxonomies/category
-        wp:post_type:
-        - href: https://sigi-universe.com/wp-json/wp/v2/posts?categories=1
-        curies:
-        - name: wp
-          href: https://api.w.org/{rel}
-          templated: true
-  - []
+        - href: https://sigi-universe.com/wp-json/wp/v2/users
+    wp:term:
+    - - id: 1
+        link: https://sigi-universe.com/category/uncategorized/
+        name: Uncategorized
+        slug: uncategorized
+        taxonomy: category
+        _links:
+          self:
+          - href: https://sigi-universe.com/wp-json/wp/v2/categories/1
+            targetHints:
+              allow:
+              - GET
+              - POST
+              - PUT
+              - PATCH
+          collection:
+          - href: https://sigi-universe.com/wp-json/wp/v2/categories
+          about:
+          - href: https://sigi-universe.com/wp-json/wp/v2/taxonomies/category
+          wp:post_type:
+          - href: https://sigi-universe.com/wp-json/wp/v2/posts?categories=1
+          curies:
+          - name: wp
+            href: https://api.w.org/{rel}
+            templated: true
+    - []

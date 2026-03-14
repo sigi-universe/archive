@@ -1,0 +1,3466 @@
+﻿--- # LoA Architecture Omega V8 Semantic Export
+Entries:
+  - Title: "テスト　Eclipsed"
+    ID: 4515
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L1"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: 123
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: 123
+        fact_value: 123
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Nagi"
+    ID: 4709
+    Semantic_Relations:
+      - Type: "Related LoA to wiki"
+        Role: Source
+        Target_ID: 2445
+        Target_Title: "紋様実在論（Regulus Nagi）"
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4710
+        Target_Title: "Yammu"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4871
+        Target_Title: "Weno-Matr"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4924
+        Target_Title: "privy_council"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4953
+        Target_Title: "Silent Summer"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4963
+        Target_Title: "Lord Dieufreche"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4965
+        Target_Title: "naz_lady_protocol"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4992
+        Target_Title: "itinerant_calculators"
+    id_hierarchy: "L4"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Nagi"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "determinism"
+        fact_value: "星辰と占術、数秘術、幾何学法則によって混沌を読み解き、社会を平定する"
+      item-1:
+        attribute: "dualism"
+        fact_value: "秩序（法則・構造）と混沌（ヴェール・嵐・深淵）の対立"
+      item-2:
+        attribute: "salvation"
+        fact_value: "社会システム全体の恒常性維持"
+      item-3:
+        attribute: "marriage_control"
+        fact_value: "遺伝的調和とよばれ、秘儀的に定められる、配偶管理"
+      item-4:
+        attribute: "ruling_echelon"
+        fact_value: "太陽柱"
+    the_rule_constraints: 
+      item-0:
+        subject: "precepts"
+        description: "個人主義や情熱、欲望による社会、集団の損失"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "Yammu"
+    ID: 4710
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4835
+        Target_Title: "Pneumatica"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4985
+        Target_Title: "Fluidica/フルイデカ"
+    id_hierarchy: "L1"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Yammu"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "surface_composition"
+        fact_value: "約85%が海洋"
+      item-1:
+        attribute: "atmosphere"
+        fact_value: "呼気可能な大気"
+      item-2:
+        attribute: "base_environment"
+        fact_value: "活発な火山"
+      item-3:
+        attribute: "celestial_body"
+        fact_value: "7つの衛星による強力な潮汐・地質影響"
+    the_rule_constraints: 
+      item-0:
+        subject: "celestial_body"
+        description: "眩しい太陽、快晴の青空は極めて稀であり、常時、厚い雲層か火山灰、あるいは嵐の大気に覆われている。"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Pneumatica"
+    ID: 4835
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4710
+        Target_Title: "Yammu"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4871
+        Target_Title: "Weno-Matr"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4985
+        Target_Title: "Fluidica/フルイデカ"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4987
+        Target_Title: "Mechanical Heliograph"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4989
+        Target_Title: "PipePost"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4990
+        Target_Title: "pneumatic_routing_system"
+    id_hierarchy: "L5"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Pneumatica"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: " Core_Technology"
+        fact_value: "流体素子（フルイディクス / ズィーマ）。電気やトランジスタではなく気体や液体の流れ（圧力変化）を利用して論理演算を行う技術 "
+      item-1:
+        attribute: "Power_Source"
+        fact_value: "地熱から生み出す高温蒸気と水圧を供給する都市のパイプライン"
+      item-2:
+        attribute: "Communication"
+        fact_value: "光通信（ヘリオグラフ）、音響通信（変調ホイッスルや巨大共鳴機による固体振動）、気送管ネットワーク"
+      item-3:
+        attribute: "Static_Memory"
+        fact_value: "石板、セラミックスのカセット、エイ皮（シャグリン）の皮紙、穿孔テープ"
+      item-4:
+        attribute: "Interface_and_Aesthetics"
+        fact_value: "歯車やピストンのような激しい可動部を持たないため、稼働音は微細な「空気のシューという音」や「水流の音」のみであり、修道院のような静謐な環境音を生み出す"
+    the_rule_constraints: 
+      item-0:
+        subject: "Storage_and_Memory"
+        description: "電子メモリや磁気ディスクなどの電磁気的ストレージは一切使用できない"
+        modality: "Physical　"
+      item-1:
+        subject: "Communication_Constraints"
+        description: "磁気嵐によって電波が遮断・撹乱されるため、無線電波による通信は不可能である"
+        modality: "Physical　"
+      item-2:
+        subject: "Bandwidth_Limit"
+        description: "大地や海を震わせる超低周波通信（固体振動）は嵐の影響を受けないが、帯域幅が極端に狭く、音声や画像のリアルタイム送信は不可能（短いコード伝送に限定される） "
+        modality: "Physical　"
+      item-3:
+        subject: "Physical_Routing"
+        description: "通信は、気送管ネットワーク,、カプセルの高速搬送、光通信（機械式ヘリオグラフ）、音響管などの物理的なラインに依存する "
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "The Still Reach"
+    ID: 4869
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4893
+        Target_Title: "The Torn"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4993
+        Target_Title: "Urukghartin/工廠都市ウルクハーティン"
+    id_hierarchy: "L6"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "The Still Reach"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: " description"
+        fact_value: "ヤ＝ムゥ最大の大陸"
+      item-1:
+        attribute: "geology"
+        fact_value: "アイスランド型の荒涼とした溶岩の大地"
+    the_rule_constraints: 
+      item-0:
+        subject: "magnetic_wall"
+        description: "惑星ヤ＝ムゥが放つ強力な磁場により、トランジスタと半導体は存在しない。"
+        modality: "Physical　"
+      item-1:
+        subject: "tide"
+        description: "7つの衛星によって複雑かつ暴力的な潮汐が存在。大陸の大部分は嵐季には海に沈む。"
+        modality: "Physical　"
+      item-2:
+        subject: "material_deprivation"
+        description: "木材や植物繊維といった素材は欠乏している。"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Weno-Matr"
+    ID: 4871
+    Semantic_Relations:
+      - Type: "Related LoA to wiki"
+        Role: Source
+        Target_ID: 4873
+        Target_Title: "渇仰者"
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4835
+        Target_Title: "Pneumatica"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4880
+        Target_Title: "Sores-Morekh"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4990
+        Target_Title: "pneumatic_routing_system"
+    id_hierarchy: "L5"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Wenomatr"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "climate"
+        fact_value: "常に分厚い雲と霧に覆われ、日光が欠如した環境"
+      item-1:
+        attribute: "Continentalism"
+        fact_value: "精神的沈滞と静かな諦念。陰影や石・金属の質感を重んじる"
+      item-2:
+        attribute: "gloom"
+        fact_value: "ウェノの憂鬱 (The Weno-Gloom) / ヴェールの文化"
+      item-3:
+        attribute: "urban structure"
+        fact_value: "山の斜面に築かれ、山から渓谷に向かって段階的に配置された複数の大岩壁によって守られる要塞都市"
+      item-4:
+        attribute: "The Under-Paths"
+        fact_value: "主要な建物を結び、嵐季のシェルターとなる広範な地下通路"
+      item-5:
+        attribute: "population"
+        fact_value: 15000000
+      item-6:
+        attribute: "city"
+        fact_value: "ナギ教の聖都である"
+    the_rule_constraints: 
+      item-0:
+        subject: "Pneumatica"
+        description: "流体素子とパイプライン、蒸気機関で発達した対嵐性の都市"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Mt. Hingel"
+    ID: 4874
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4882
+        Target_Title: "Kevar-Gered"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4894
+        Target_Title: "Nil-Thorm"
+    id_hierarchy: "L2"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "HingelMountain"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "geographic_role"
+        fact_value: "聖都ウェノ・マトルがその斜面に築かれた、広大な火山山塊（霊峰）であり都市の土台"
+      item-1:
+        attribute: "characteristics"
+        fact_value: "現在も活動を続ける巨大な中央火山"
+      item-2:
+        attribute: "summit_plateau"
+        fact_value: "比較的なだらかで広大な地盤。最も安全な場所であり、特権階級の居住区や神殿中枢が置かれている"
+      item-3:
+        attribute: "steep_slopes"
+        fact_value: "灯火区と呼ばれ、地熱活動が活発で不安定な斜面。労働者階級の居住区や巨大な地熱プラント群が密集している"
+      item-4:
+        attribute: "mountain_base"
+        fact_value: "嵐季に水没する広大な低地と接するラインに築かれた、巨大なダム兼防波堤\""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Hatira swamp"
+    ID: 4875
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L4"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "HatiraSwamp"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "basic_info"
+        fact_value: "地熱沼沢地帯 "
+      item-1:
+        attribute: "location"
+        fact_value: "聖都ウェノ・マトルが築かれたヘンギル山の麓"
+      item-2:
+        attribute: "role"
+        fact_value: "ウェノ・マトル（山上の都市）と外界、そして人間と水生種族を結ぶ、広大で危険な緩衝地帯"
+      item-3:
+        attribute: "terrain"
+        fact_value: "火山活動によって形成された水はけの悪い平原。冷たい沼の水、地で沸き立つ熱水泉、硫黄の匂いをまとった蒸気を噴き出す泥の穴、有毒な火山ガスが溜まる窪地が混在している "
+      item-4:
+        attribute: "atmosphere"
+        fact_value: "視界は常に霧と地熱の蒸気で煙っており、見通しが極めて悪い"
+      item-5:
+        attribute: "ecosystem"
+        fact_value: "熱水に適応した奇妙な色の苔や、鉱物を取り込んで硬化した葦などが生い茂る独自の生態系を持つ"
+      item-6:
+        attribute: "infrastructure"
+        fact_value: "かつて存在した石畳の街道は、嵐季の豪雨や地盤変動によって寸断され、ぬかるんだ泥と熱水が点在する通行不能な谷と化している"
+    the_rule_constraints: 
+      item-0:
+        subject: "participants"
+        description: "ウディアン族"
+        modality: "Statutory"
+      item-1:
+        subject: "participants"
+        description: "密輸商人（灯火区の商人など"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "Ost-me-rekh"
+    ID: 4877
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4895
+        Target_Title: "WulkhanAl-Faliri"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4893
+        Target_Title: "The Torn"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4895
+        Target_Title: "WulkhanAl-Faliri"
+    id_hierarchy: "L2"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Ost-me-rekh"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "land"
+        fact_value: "暗黒海から侵攻してくる深海の脅威アビサリアンを防ぐための防衛線であり、荒涼とした地域"
+        explanationbackground: ""
+      item-1:
+        attribute: "Location"
+        fact_value: "North east"
+        explanationbackground: "北部の東側、より殺伐とした危険で不毛な海域。"
+      item-2:
+        attribute: "laborer"
+        fact_value: "Criminals, debtors, illegitimate children"
+        explanationbackground: "人々が最後に行きつく流浪の地"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "The Hush-Crags"
+    ID: 4878
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4983
+        Target_Title: "Lord Cetasion"
+    id_hierarchy: "L2"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "The Hush-Crags"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "old_altherian_name"
+        fact_value: "ジド・ギム"
+      item-1:
+        attribute: "role"
+        fact_value: "壁。東からの暴風を物理的に遮断する防音壁であり、世俗を拒絶する修行の場 "
+      item-2:
+        attribute: "geographical_features"
+        fact_value: "東の海からスティルリーチへと吹き付ける致死的な暴風を妨げる防壁"
+      item-3:
+        attribute: "thematic_significance"
+        fact_value: "聖都の静寂を守るために立ちはだかる霊峰"
+    the_rule_constraints: 
+      item-0:
+        subject: " west_side"
+        description: "大陸側。山の影となり穏やかな風。静寂が支配する"
+        modality: "Physical　"
+      item-1:
+        subject: "The Wind-Eaten Blades"
+        description: "海側。何万年もの暴風によって削られたカミソリのように鋭く尖った刃状の岩肌。風が衝突して引き裂かれる際、山全体が高周波の悲鳴（風切り音）を上げ続ける"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Sores-Morekh"
+    ID: 4880
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4871
+        Target_Title: "Weno-Matr"
+    id_hierarchy: "L1"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "SoresMorekh"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "ナギ神殿の中枢がある聖地"
+      item-1:
+        attribute: "position"
+        fact_value: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "restriction_level"
+        description: "ナギ教の聖職者と一部の来賓のみが入場を許可される。"
+        modality: "Absolute"
+    Content: |
+      
+
+  - Title: "Kevar-Gered"
+    ID: 4882
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4874
+        Target_Title: "Mt. Hingel"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4885
+        Target_Title: "Soot-Stained"
+    id_hierarchy: "L7"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "KevarGered"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "灯火区の中心 / 都市の心臓"
+      item-1:
+        attribute: "zone"
+        fact_value: "第ニの壁内側：灯火区（Forge District）"
+      item-2:
+        attribute: "environment_tags"
+        fact_value: "\"地熱\", \"高圧蒸気\", \"煤煙\",\"Pneumatica\","
+      item-3:
+        attribute: "core_function"
+        fact_value: "巨大地熱発電施設群"
+      item-4:
+        attribute: "infrastructure"
+        fact_value: "- \"地熱汲み上げプラント\"     - \"巨大蒸気パイプライン（起点）\"     - \"圧力管理セクター\""
+      item-5:
+        attribute: "visual_elements"
+        fact_value: "\"真鍮の計器\", \"巨大な弁\", \"絶え間ない排気音\""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Vein-Walkers/脈歩き"
+    ID: 4884
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4885
+        Target_Title: "Soot-Stained"
+    id_hierarchy: "L7"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "VeinWalkers"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "social_tier"
+        fact_value: "Low Social Class"
+      item-1:
+        attribute: "work_environment"
+        fact_value: "地熱パイプライン内部・壁面"
+      item-2:
+        attribute: "work_environment_conditions"
+        fact_value: "\"極高熱\", \"高圧蒸気\", \"酸欠リスク\", \"硫黄臭\""
+      item-3:
+        attribute: "equipment"
+        fact_value: "- \"防熱重装（Heat-Resistant Rig）\"       - \"呼吸補助装置（Steam-Filter Mask）\""
+      item-4:
+        attribute: "primary_disease"
+        fact_value: "白肺病[\"激しい咳\", \"呼吸困難\", \"肺の石灰化\"]"
+      item-5:
+        attribute: "culture"
+        fact_value: "脈歩きの休息通り,非合法蒸気酒場"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Soot-Stained"
+    ID: 4885
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4884
+        Target_Title: "Vein-Walkers/脈歩き"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4882
+        Target_Title: "Kevar-Gered"
+    id_hierarchy: "L7"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: " SootStained"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "expert"
+        fact_value: "VeinWalkers労働者階級の呼び名"
+      item-1:
+        attribute: "operations"
+        fact_value: "地熱中継所での圧力管理"
+      item-2:
+        attribute: "industrial_focus"
+        fact_value: "ラヴァフォージド加工機の維持"
+      item-3:
+        attribute: "checkpoint"
+        fact_value: "煤溜息の橋 (Bridge of Sooty Sighs)"
+    the_rule_constraints: 
+      item-0:
+        subject: "physical_branding"
+        description: "深部に染み付いた蒸気と煤"
+        modality: "Physical　"
+      item-1:
+        subject: "mobility_restrictions"
+        description: "枢密院発行の身分証明証を持っておらず、聖都ウェノマトルへの入場はできない。"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "Abyssarians"
+    ID: 4890
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4889
+        Target_Title: "vaskan_fracture"
+    id_hierarchy: "L3"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Abyssarians"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "Abyssarians"
+        fact_value: "Abyssarians"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "vaskan_fracture"
+    ID: 4889
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4890
+        Target_Title: "Abyssarians"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4891
+        Target_Title: "Giroth／イワガネ"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4898
+        Target_Title: "JarlunSheker/ヤルン・シェケル"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4894
+        Target_Title: "Nil-Thorm"
+    id_hierarchy: "L2"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "vaskan_fracture"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "location"
+        fact_value: "中央大陸、スティルリーチの北方海域"
+      item-1:
+        attribute: "terrain_type"
+        fact_value: "archipelago# 多島海"
+      item-2:
+        attribute: "origin"
+        fact_value: "volcanic_activity # 火山隆起"
+      item-3:
+        attribute: "climate"
+        fact_value: "polar_extreme"
+      item-4:
+        attribute: "weather"
+        fact_value: "storm_and_gales"
+      item-5:
+        attribute: "sea_condition"
+        fact_value: "rough_currents"
+      item-6:
+        attribute: "essential_transport"
+        fact_value: "dragon_bone_longship"
+      item-7:
+        attribute: "primary_race"
+        fact_value: "Vaska_Clan"
+      item-8:
+        attribute: "governance"
+        fact_value: "feudal_militarism"
+      item-9:
+        attribute: "notable_houses"
+        fact_value: "House_Coates, House_Vargaz"
+      item-10:
+        attribute: "primary_threat"
+        fact_value: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "political_standing"
+        description: "Weno_Mator_Theocracy"
+        modality: "Statutory"
+      item-1:
+        subject: "diplomacy_stance"
+        description: "semi_independent"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "Giroth／イワガネ"
+    ID: 4891
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4889
+        Target_Title: "vaskan_fracture"
+    id_hierarchy: "L3"
+    id_subcategory_l1: "PHY"
+    id_subcategory_l2: "SRSC"
+    id_uniquetag: "Giroth"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "common_ja"
+        fact_value: "イワガネ族"
+      item-1:
+        attribute: "common_en"
+        fact_value: "Reefhide / The Salt-Crag Kin"
+      item-2:
+        attribute: "Salt Sanctification"
+        fact_value: "彼らにとって磯の匂いは『生命の錆』であり、波の音は『神の研磨』であると説く"
+      item-3:
+        attribute: "classification"
+        fact_value: "Hardened-Adaptive Udian"
+      item-4:
+        attribute: "skin_type"
+        fact_value: "Litho-Metallic Armor"
+      item-5:
+        attribute: "mobility"
+        fact_value: "Low (Heavy Juggernaut)"
+      item-6:
+        attribute: "respiration_system"
+        fact_value: "Shield-Gills (密閉型鰓)"
+      item-7:
+        attribute: "personality"
+        fact_value: "Stoic/Distant (人間を「火の猿」と蔑視)"
+      item-8:
+        attribute: "diplomacy"
+        fact_value: "vaska_provides: [\"Lavaforge weaponry\", \"Safe molting docks\"]       iwagane_provides: [\"Harbor foundation defense\", \"Deep-sea rare metals\", \"Living sea-charts\"]"
+    the_rule_constraints: 
+      item-0:
+        subject: "land_ breathing‗limit"
+        description: "2-4 hours"
+        modality: "Physical　"
+      item-1:
+        subject: "governance / leader"
+        description: "Gerontocracy"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "The Torn"
+    ID: 4893
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4869
+        Target_Title: "The Still Reach"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4877
+        Target_Title: "Ost-me-rekh"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4907
+        Target_Title: "Modernization divergence north south1"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4906
+        Target_Title: "Palaz Ka-bul/パラズ・カ＝ヴル"
+    id_hierarchy: "L6"
+    id_uniquetag: "TheTorn"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "role"
+        fact_value: "対アビサリアン最前線防衛線"
+      item-1:
+        attribute: "SpecificIndustry"
+        fact_value: "Leviathan Hunting Grounds (巨大海獣の狩り場)"
+      item-2:
+        attribute: "civilization_role"
+        fact_value: "The Furnace"
+      item-3:
+        attribute: "core_tech"
+        fact_value: "Lavaforge"
+      item-4:
+        attribute: "leading_clan"
+        fact_value: "House Laval"
+      item-5:
+        attribute: "stronghold"
+        fact_value: "Black Iron Castle"
+      item-6:
+        attribute: "ideology"
+        fact_value: "Great Vaskanism"
+      item-7:
+        attribute: "tenets"
+        fact_value: "Militaristic Fascism"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Nil-Thorm"
+    ID: 4894
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4889
+        Target_Title: "vaskan_fracture"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4874
+        Target_Title: "Mt. Hingel"
+    id_hierarchy: "L1"
+    id_uniquetag: "NilThorm"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "Ancient_Form"
+        fact_value: "Niv’el-Tehom"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "WulkhanAl-Faliri"
+    ID: 4895
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4877
+        Target_Title: "Ost-me-rekh"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4877
+        Target_Title: "Ost-me-rekh"
+    id_hierarchy: "L8"
+    id_uniquetag: "WulkhanAl-Faliri"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "Origin"
+        fact_value: "House Al-Faliri"
+        explanationbackground: "北部の盟主ラヴァル一門の遠い分家"
+      item-1:
+        attribute: "Status"
+        fact_value: "北洋艦隊提督 兼 北部方面戦略参謀"
+        explanationbackground: ""
+      item-2:
+        attribute: "Atmosphere"
+        fact_value: "不気味な一定間隔の呼吸音"
+        explanationbackground: "口元を覆う重厚なスチームパンク的マスク"
+      item-3:
+        attribute: "Narrative_Theme"
+        fact_value: "統計的虐殺者 / 冷酷なテクノクラート"
+        explanationbackground: "合理的生存戦略に基づく北部の再構築"
+      item-4:
+        attribute: "control"
+        fact_value: "Ost-me-rekh"
+        explanationbackground: "艦隊を指揮し、北東部を支配する。"
+      item-5:
+        attribute: "Resource_Acquisition"
+        fact_value: "海獣レヴィアタンの組織、および星外由来の非人道的テクノロジーの積極的収集"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "Decision_Making"
+        description: "慈悲、恐怖、名誉などの感情的パラメータを意思決定プロセスから除外する"
+        modality: "Statutory"
+      item-1:
+        subject: "Unit_Management"
+        description: "損害が許容範囲内であれば、味方の犠牲を厭わず最短ルートで目的を達成する"
+        modality: "Statutory"
+      item-2:
+        subject: "Interaction_Rules"
+        description: "対話による懐柔や情に訴える交渉する相手を嫌う"
+        modality: "Normative"
+    Content: |
+      
+
+  - Title: "JarlunSheker/ヤルン・シェケル"
+    ID: 4898
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4889
+        Target_Title: "vaskan_fracture"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+    id_hierarchy: "L8"
+    id_uniquetag: "JarlunSheker"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "titles"
+        fact_value: "- \"北部提督\"    - \"赤錆の爪 (Rusty Claw)\"     - \"大ヴァスカ候 (Grand Duke Vaska)\"     - \"鉄血の大公\""
+        explanationbackground: ""
+      item-1:
+        attribute: "origin"
+        fact_value: "\"鉄砂の海岸 / ヴァスカ人の末裔（ラヴァル家私生児）"
+        explanationbackground: ""
+      item-2:
+        attribute: "role"
+        fact_value: "\"ヘマタイト兵団総司令官 / 哲学的軍国主義者\""
+        explanationbackground: ""
+      item-3:
+        attribute: "visual_identity"
+        fact_value: "\"2メートル級の巨躯\""
+        explanationbackground: ""
+      item-4:
+        attribute: "armor"
+        fact_value: "ラヴァフォージ製重装甲"
+        explanationbackground: ""
+      item-5:
+        attribute: "signature_weapon"
+        fact_value: "ヒート・クロー"
+        explanationbackground: "義手として赤い爪のような装備を使用するが、実用性はあまりないので普段は付けない。"
+      item-6:
+        attribute: "ideology"
+        fact_value: "大ヴァスカ主義"
+        explanationbackground: "弱さは罪である。弱者は強者の血を無駄に流させる存在だからだ"
+      item-7:
+        attribute: "behavioral_logic"
+        fact_value: "unti laval"
+        explanationbackground: "ラヴァル家を含む北部旧貴族を不仲であり、惑星外勢力を交えた3つ巴関係"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "The Hematite Guard"
+    ID: 4899
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4898
+        Target_Title: "JarlunSheker/ヤルン・シェケル"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4900
+        Target_Title: "RustyShell"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4901
+        Target_Title: "Land-Dreadnought"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4902
+        Target_Title: "EarthShakerIroncla"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4904
+        Target_Title: "Bissaryon Mikzad/ビサリオンミクザード"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4905
+        Target_Title: "ケヴィト"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4906
+        Target_Title: "Palaz Ka-bul/パラズ・カ＝ヴル"
+    id_hierarchy: "L7"
+    id_uniquetag: "HematiteGuard"
+    id_startyear: 34999
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "base_of_operations"
+        fact_value: "北部"
+        explanationbackground: ""
+      item-1:
+        attribute: "ideology"
+        fact_value: "大ヴァスカ主義"
+        explanationbackground: "哲学的軍国主義 / 近代ファシスト私兵軍団"
+      item-2:
+        attribute: "bond_type"
+        fact_value: "指導者を『オヤジ』と仰ぐ家族主義的な私兵結合"
+        explanationbackground: ""
+      item-3:
+        attribute: "combat_style"
+        fact_value: "区画ごとの焼却、焦土作戦、犠牲を厭わない殲滅戦"
+        explanationbackground: "煤にまみれることは『鉄と一体化する名誉』であり、工場の労働は聖なる修練である"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "RustyShell"
+    ID: 4900
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+    id_hierarchy: "L8"
+    id_uniquetag: "RustyShell"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "heavy_infantry"
+        fact_value: "drive_system"
+        explanationbackground: "High-Pressure Fluidics / Pneumatic Piston"
+      item-1:
+        attribute: "armor_material"
+        fact_value: "Unpainted Gunmetal / Lavaforge Rust-Layer"
+        explanationbackground: ""
+      item-2:
+        attribute: "signature_feature"
+        fact_value: "Back-Mounted Exhaust Chimneys"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "weakness"
+        description: "Joint Jamming via Sand/Dust(Requires frequent Tuning)"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Land-Dreadnought"
+    ID: 4901
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+    id_hierarchy: "L8"
+    id_uniquetag: "Land-Dreadnought"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "era_equivalent"
+        fact_value: "WWI Super-Heavy Tank / Landship"
+        explanationbackground: ""
+      item-1:
+        attribute: "control_unit"
+        fact_value: "Fluidic Logic Gate (Zima), High concentration coal"
+        explanationbackground: "南部がしなやかなズィーマに対し、北部は高濃度の石炭燃料(ディーゼル)をベースとしたアチアチ"
+      item-2:
+        attribute: "tactics"
+        fact_value: "Mobile Fortress / Siege Breaker"
+        explanationbackground: ""
+      item-3:
+        attribute: "slogan"
+        fact_value: "I Don\'t Want to Set the World on Fire"
+        explanationbackground: "コックピット内には、世界を燃え上がらせたいわけではない。とかかれる。"
+      item-4:
+        attribute: "structure"
+        fact_value: "Multi-legged tank"
+        explanationbackground: "沼地にも対応した多脚構造、機構が複雑で高価。"
+    the_rule_constraints: 
+      item-0:
+        subject: "weakness"
+        description: "釜による発熱が激しいので、中は蒸し風呂状態となる。"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "EarthShakerIroncla"
+    ID: 4902
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+    id_hierarchy: "L8"
+    id_uniquetag: "EarthShakerIronclad"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "communication"
+        fact_value: "Seismic Impulse Generator (Earth-Shaker)"
+        explanationbackground: ""
+      item-1:
+        attribute: "defense"
+        fact_value: "Multi-layered Riveted Steel Plate"
+        explanationbackground: ""
+      item-2:
+        attribute: "capacity"
+        fact_value: "50 mulch leg tank"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "ケヴィト"
+    ID: 4905
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+    id_hierarchy: "L1"
+    id_uniquetag: "Kebito"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "role"
+        fact_value: "logic_type"
+        explanationbackground: ""
+      item-1:
+        attribute: "appearance"
+        fact_value: "泥まみれの軍用コート、黒い革の手帳（補給リスト"
+        explanationbackground: ""
+      item-2:
+        attribute: "special_mechanic"
+        fact_value: "書類上の計算（リソース・マネジメント）"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Palaz Ka-bul/パラズ・カ＝ヴル"
+    ID: 4906
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4899
+        Target_Title: "The Hematite Guard"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4893
+        Target_Title: "The Torn"
+    id_hierarchy: "L8"
+    id_uniquetag: "PalazKa-bul"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "灰の詩人・扇動者"
+        explanationbackground: ""
+      item-1:
+        attribute: "role"
+        fact_value: "急進的未来派"
+        explanationbackground: ""
+      item-2:
+        attribute: "profile"
+        fact_value: "洗練された軍服、内部の冷徹なロビイスト"
+        explanationbackground: ""
+      item-3:
+        attribute: "special_mechanic"
+        fact_value: "最終的には総司令官JarlunShekerをも旧弊として粛清し、組織を完全掌握する"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    core_event: ""
+    Content: |
+      
+
+  - Title: "Modernization divergence north south1"
+    ID: 4907
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4893
+        Target_Title: "The Torn"
+    id_hierarchy: "L8"
+    id_uniquetag: "ModDivergence"
+    id_startyear: 34700
+    endyear: 35970
+    core_concept: 
+      item-0:
+        attribute: "era_name"
+        fact_value: "中世〜静嵐前期"
+        explanationbackground: "星外勢力介入以前の絶対的文明格差期"
+      item-1:
+        attribute: "Southern Dominance"
+        fact_value: "南部では大規模プランテーションと、水生人奴隷による完成された封建制によって北部よりはるかに栄えていた。"
+        explanationbackground: ""
+      item-2:
+        attribute: "Industrial underdevelopment in the north"
+        fact_value: "北部は資源的リソースで遅れ、また利用できる水生人も狡猾、堅牢な種族のため手工業にとどまった。"
+        explanationbackground: ""
+      item-3:
+        attribute: "Unequal trade"
+        fact_value: "北部は南部の諸貴族、王族のための資源採掘場（植民地）であり、不平等な搾取体制にあった。"
+        explanationbackground: "スティルリーチの中央のトンネルによって、この交易は栄える。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Modernization divergence north south2"
+    ID: 4908
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L8"
+    id_uniquetag: "ModDivergence"
+    id_startyear: 35981
+    endyear: 35983
+    core_concept: 
+      item-0:
+        attribute: "era_name"
+        fact_value: "静嵐33年〜35年"
+        explanationbackground: ""
+      item-1:
+        attribute: "trigger_event"
+        fact_value: "アクラブ星系（産労連盟）の本格介入"
+        explanationbackground: "不平等条約を契機とした、北部の技術略奪的近代化の開始。"
+      item-2:
+        attribute: "Action of north"
+        fact_value: "北部領主たちは、南部を出し抜くために、星外勢力へと近づき急速な近代化を始める。"
+        explanationbackground: "北部領主ラヴァル一門による、鉄と重工業の裏取引。雨街建造へとつながる基礎"
+      item-3:
+        attribute: "structural_change"
+        fact_value: "南部は、ナギに基づく宗教的嫌悪から、星外権威への拒絶反応を示す。"
+        explanationbackground: ""
+      item-4:
+        attribute: "key_events"
+        fact_value: "黒水条約の締結"
+        explanationbackground: "静嵐33年"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Modernization divergence north south3"
+    ID: 4909
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L8"
+    id_uniquetag: "ModDivergence"
+    id_startyear: 35984
+    endyear: 36002
+    core_concept: 
+      item-0:
+        attribute: "era_name"
+        fact_value: "静嵐33年〜54年"
+        explanationbackground: ""
+      item-1:
+        attribute: "summary"
+        fact_value: "歪んだ近代化の完了と、対極的なイデオロギーの固定化"
+        explanationbackground: "北部は産業革命がいち早く進み、都市化と科学技術の発展が急速"
+      item-2:
+        attribute: "ideology"
+        fact_value: "north_great_vaska_ism"
+        explanationbackground: "大ヴァスカ主義と呼ばれる、北部主導の大陸掌握が始まる。南部の保守的かつ福音主義的な派閥を自由主義神学により追い越すことを目指す。"
+      item-3:
+        attribute: "Military-industrial complex"
+        fact_value: "軍産複合体への変貌："
+        explanationbackground: "貧しかった北部は、強引に吸収した星外技術によって「工場と軍隊」が一体化した強力な重工業地帯へと変貌を遂げました。"
+      item-4:
+        attribute: "holy relic"
+        fact_value: "禁忌だった聖遺物を、軍用、産業用に北部は活用し始める。"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Blackwater Treaty(黒水条約)"
+    ID: 4912
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4960
+        Target_Title: "SECOND_UDIAN_WAR"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4961
+        Target_Title: "RıhtımBur/ルフトゥム・バール"
+    id_hierarchy: "L8"
+    id_uniquetag: "TRT_BLACKWATER"
+    id_startyear: 35981
+    endyear: 36002
+    core_concept: 
+      item-0:
+        attribute: "duration"
+        fact_value: "21 yewar"
+        explanationbackground: ""
+      item-1:
+        attribute: "signed_year"
+        fact_value: "Y.M. 35,981"
+        explanationbackground: ""
+      item-2:
+        attribute: "primary_cause"
+        fact_value: "南部・ウディアン王政連合対、北部工業化ユンカーによる長期的内戦による国力疲弊"
+        explanationbackground: ""
+      item-3:
+        attribute: "external_pressure"
+        fact_value: "アクラブ星系「産労連盟」による外交的介入"
+        explanationbackground: "- \"ウディアンとの恒久和平仲介\"       - \"星外文明からの軍事的圧力というブラフ\"       - \"ヤ＝ムゥによる非人道的行為への非難\""
+      item-4:
+        attribute: "background"
+        fact_value: "ヤ＝ムゥの肥沃な海底に眠るとされる希少資源、無限のエネルギーをダークコロイドをめぐる惑星間の攻防。"
+        explanationbackground: "ナギ政権側は、タークコロイドは宗教的な儀式に使われるのみで、特別なエネルギーなどはないと説明するが、産労連盟は聞き入れなかった。"
+      item-5:
+        attribute: "internal_pressure"
+        fact_value: "北部リベラル派（地方主権派・啓明党）"
+        explanationbackground: "神殿（枢密院）の技術独占打破を掲げた開国要求と政権批判"
+      item-6:
+        attribute: "technological_drain"
+        fact_value: "独立行政区を拠点に北部の知的人材と富を吸い上げ、宰相府を内側から空洞化させる"
+        explanationbackground: ""
+      item-7:
+        attribute: "name"
+        fact_value: "正式名称：アクラブ・ヤ＝ムゥ黒水通商条約"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "開発主導権"
+        description: "新規採掘計画は連盟の「技術安全保障委員会」の承認を必須とする"
+        modality: "Absolute"
+      item-1:
+        subject: "ナギの宗教上問題ない土地にたいする開発特区の産労連盟による所有"
+        description: "磁場海流を突破する「特殊掘削技術」の独占開発拠点の設立、深海における独立行政区（フロンティア）の確立と国家内国家の創設"
+        modality: "Absolute"
+      item-2:
+        subject: "再交渉条項"
+        description: "ウディアンとの恒久的かつ不可逆的な和解を連盟が『認証』した場合のみ"
+        modality: "Absolute"
+      item-3:
+        subject: "採掘特区の開放"
+        description: "思想的封鎖領域を星外勢力へ開放"
+        modality: "Statutory"
+    core_event: 
+      item-0:
+        evenname: "signed_year"
+        eventyearstart: 35981
+        eventyearend: ""
+        description: ""
+    Content: |
+      
+
+  - Title: "HINDMOST"
+    ID: 4913
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4917
+        Target_Title: "Laikine the Shallows"
+    id_hierarchy: "L6"
+    id_uniquetag: "REG_SOUTH_HINDMOST"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "The Hindmost"
+        explanationbackground: ""
+      item-1:
+        attribute: "official_name"
+        fact_value: "南部河口租界"
+        explanationbackground: ""
+      item-2:
+        attribute: "aliases"
+        fact_value: "- \"尾 (The Tail)\"   - \"沈殿地 (The Dregs)\""
+        explanationbackground: ""
+      item-3:
+        attribute: "atmosphere"
+        fact_value: "高温多湿 / 爛熟 / 腐敗と豊穣の同居"
+        explanationbackground: ""
+      item-4:
+        attribute: "cultural_ethos"
+        fact_value: "毒も蜜も金も、すべてが最後に沈殿し発酵する"
+        explanationbackground: ""
+      item-5:
+        attribute: "climate"
+        fact_value: "大環状海流による外洋防護（荒波・冷気の遮断）"
+        explanationbackground: ""
+      item-6:
+        attribute: "Location"
+        fact_value: "スティルリーチの南部の温暖な湾岸地帯"
+        explanationbackground: ""
+      item-7:
+        attribute: "name"
+        fact_value: "name"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "JADE_CRESCENT"
+    ID: 4914
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L3"
+    id_uniquetag: "JADE_CRESCENT"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "翡翠の三日月"
+        explanationbackground: ""
+      item-1:
+        attribute: "sub_area"
+        fact_value: "ザルム・ガズ連峰"
+        explanationbackground: ""
+      item-2:
+        attribute: "attributes"
+        fact_value: "\"霧\", \"毒\", \"陰謀\""
+        explanationbackground: ""
+      item-3:
+        attribute: "geography"
+        fact_value: "酸性雨に侵食されたカルスト地形（石灰岩の尖塔群）"
+        explanationbackground: ""
+      item-4:
+        attribute: "economy"
+        fact_value: "- \"苔アラック・貴腐茸ワイン（醸造）\"       - \"薬品・香油生産\"       - \"暗殺・外交工作\""
+        explanationbackground: ""
+      item-5:
+        attribute: "power_structure:"
+        fact_value: "- \"密教氏族ザルム・ガズ\"       - \"海運領主エズメレイ家\""
+        explanationbackground: ""
+      item-6:
+        attribute: "capital"
+        fact_value: "ヴェールの都 (The Veiled City)"
+        explanationbackground: "後脚区 (Hind Quarter)"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Laikine the Shallows"
+    ID: 4917
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4913
+        Target_Title: "HINDMOST"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4959
+        Target_Title: "UdianMonarchy/ウディアン王政"
+    id_hierarchy: "L2"
+    id_uniquetag: "LOC_LAIKINE_SHALLOWS"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "遠浅のライキーン"
+        explanationbackground: "黄金海 (Gold Sea / サフラン・ベイ)"
+      item-1:
+        attribute: "attributes"
+        fact_value: "\"水\", \"黄金\", \"経済\""
+        explanationbackground: "交易船の集積地 / 莫大な富の集積"
+      item-2:
+        attribute: "role"
+        fact_value: "ヤ＝ムゥの胃袋（巨大な養殖槽）"
+        explanationbackground: ""
+      item-3:
+        attribute: "geography"
+        fact_value: "広大なラグーン / 旧アルセリアン帝国中心地"
+        explanationbackground: ""
+      item-4:
+        attribute: "infrastructure"
+        fact_value: "平底船（ゴンドラ）による天然の大運河網"
+        explanationbackground: ""
+      item-5:
+        attribute: "production"
+        fact_value: "\"主食苔\", \"食用海藻\", \"食用クラゲ\""
+        explanationbackground: ""
+      item-6:
+        attribute: "ruling_class"
+        fact_value: "ヒルトゥプ家 (ウディアン王族)\""
+        explanationbackground: "飾り窓の王族であるウディアンが、そのほかの水生種族であるウディアンたちを奴隷するのだ。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "RED_SEA"
+    ID: 4920
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L3"
+    id_uniquetag: "LOC_RED_SEA"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "赤き海(Red Sea / Bahr al-Ahmar"
+        explanationbackground: ""
+      item-1:
+        attribute: "role"
+        fact_value: "ヤ＝ムゥの血流"
+        explanationbackground: ""
+      item-2:
+        attribute: "visual"
+        fact_value: "特殊藻類による赤濁"
+        explanationbackground: ""
+      item-3:
+        attribute: "function"
+        fact_value: "大規模プランテーション"
+        explanationbackground: "広域苔プランテーション用灌漑水路"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "HouseLaval/ラヴァル公爵家"
+    ID: 4922
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L7"
+    id_uniquetag: "house_laval"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "epithet"
+        fact_value: "Modernized Savagery and Iron-Blooded Rule"
+        explanationbackground: ""
+      item-1:
+        attribute: "region"
+        fact_value: "The North / torn"
+        explanationbackground: ""
+      item-2:
+        attribute: "ancestry"
+        fact_value: "Direct descendants of the Vaska (Barbarian Kings) who overran the Alserian Empire"
+        explanationbackground: ""
+      item-3:
+        attribute: "stronghold"
+        fact_value: "Schwarz Schloss"
+        explanationbackground: ""
+      item-4:
+        attribute: "location"
+        fact_value: "Gzoa-Val Island"
+        explanationbackground: ""
+      item-5:
+        attribute: "authority_symbols"
+        fact_value: "Military-style frock coats"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "philosophy"
+        description: "Distorted Noblesse Oblige (Strong rule the weak to protect them)"
+        modality: "Statutory"
+      item-1:
+        subject: ""
+        description: ""
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "privy_council"
+    ID: 4924
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4965
+        Target_Title: "naz_lady_protocol"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4983
+        Target_Title: "Lord Cetasion"
+    id_hierarchy: "L7"
+    id_uniquetag: "PrivyCouncil"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "枢密院（ナギ神殿）"
+        explanationbackground: ""
+      item-1:
+        attribute: "type"
+        fact_value: "神学的意思決定・神権機関・律法解釈"
+        explanationbackground: ""
+      item-2:
+        attribute: "authority_level"
+        fact_value: "絶対（神学的正当性の独占）"
+        explanationbackground: "ナギ教の権威に依存する"
+      item-3:
+        attribute: "chairperson"
+        fact_value: "太陽柱"
+        explanationbackground: ""
+      item-4:
+        attribute: "council_members"
+        fact_value: "ナズの女君（高位女性神官）による合議体"
+        explanationbackground: ""
+      item-5:
+        attribute: "roles:"
+        fact_value: "- \"星憲章（神託）の解釈権独占\"     - \"星間外交の主導\"　"
+        explanationbackground: ""
+      item-6:
+        attribute: "special_power"
+        fact_value: "- 星辰に基づく神託の作成 - ヤムゥの暴力的潮汐の解析、退避プロトコルの作成"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "holy_union_of_lords"
+    ID: 4925
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4924
+        Target_Title: "privy_council"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4930
+        Target_Title: "The Astra-Sages Part/中央星智党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4931
+        Target_Title: "The Concordance Party/調和党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4933
+        Target_Title: "The Enlightenment Party/啓明党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4934
+        Target_Title: "The Manorial Alliance/憲政保守党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4935
+        Target_Title: "Liberal-Labor/教労党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4956
+        Target_Title: "The First Udian War/第一次ウディアン戦争"
+    id_hierarchy: "L7"
+    id_uniquetag: "holy_union_of_lords"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "神聖諸侯連合"
+        explanationbackground: ""
+      item-1:
+        attribute: "legitimacy source"
+        fact_value: "枢密院（ナギ神殿）による聖別・認可"
+        explanationbackground: ""
+      item-2:
+        attribute: "geograph"
+        fact_value: "大陸スティルリーチ全域および周辺諸島"
+        explanationbackground: ""
+      item-3:
+        attribute: "membership_tiers"
+        fact_value: "\"聖別名家（旧家）\", \"島嶼領主（実力者）\", \"新興産業盟主（新貴族）\""
+        explanationbackground: ""
+      item-4:
+        attribute: ""
+        fact_value: ""
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "existential_constraints"
+        description: "神学的破門（Excommunication）"
+        modality: "Absolute"
+    Content: |
+      
+
+  - Title: "Divine chancellery/天導宰相府"
+    ID: 4926
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4951
+        Target_Title: "Qardum Ziṭunqu ’Iswir"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4954
+        Target_Title: "canopyism"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4957
+        Target_Title: "Declaration of Planetary Sovereignty by udian"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4960
+        Target_Title: "SECOND_UDIAN_WAR"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4992
+        Target_Title: "itinerant_calculators"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4953
+        Target_Title: "Silent Summer"
+    id_hierarchy: "L7"
+    id_uniquetag: "DGC"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "天導宰相府"
+        explanationbackground: "Divine guidance chancellery"
+      item-1:
+        attribute: "type"
+        fact_value: "世俗最高執行府"
+        explanationbackground: "枢密院より委託された『執行権』"
+      item-2:
+        attribute: "grand_chancellor"
+        fact_value: "Qardum Ziṭunqu ’Iswir"
+        explanationbackground: "カルドゥム・ズィトゥンク・イスウィル"
+    the_rule_constraints: 
+      item-0:
+        subject: "limitations"
+        description: "- \"立法権（神託解釈）の欠如\"       - \"神学的正当性の非保有\"       - \"枢密院の『神学的拒否権』に対する服従義務\""
+        modality: "Absolute"
+    Content: |
+      
+
+  - Title: "The Hall of Concordance/協定院/議会"
+    ID: 4928
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4924
+        Target_Title: "privy_council"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4930
+        Target_Title: "The Astra-Sages Part/中央星智党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4931
+        Target_Title: "The Concordance Party/調和党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4933
+        Target_Title: "The Enlightenment Party/啓明党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4934
+        Target_Title: "The Manorial Alliance/憲政保守党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4935
+        Target_Title: "Liberal-Labor/教労党"
+    id_hierarchy: "L7"
+    id_uniquetag: "The Hall of Concorda"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "common"
+        fact_value: "議会"
+        explanationbackground: "産業ギルド間の利権争いや貴族間の問題を調停する議会兼裁判所"
+      item-1:
+        attribute: "official"
+        fact_value: "神託のもとで調和（Concordance）を図るための院"
+        explanationbackground: "諸侯の利害調整の場"
+      item-2:
+        attribute: "motifs"
+        fact_value: "名家の紋様"
+        explanationbackground: ""
+      item-3:
+        attribute: "election_system"
+        fact_value: "次期総督指名選挙"
+        explanationbackground: "宰相府が即位・就任時に諸侯と交わす条件付き契約"
+      item-4:
+        attribute: "governance_constraint"
+        fact_value: "選挙協約"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "relationship"
+        description: "宰相府は行政執行権を持つが、実質的には協定院のお伺い役に固定されている"
+        modality: "Absolute"
+    core_event: ""
+    Content: |
+      
+
+  - Title: "The Astra-Sages Part/中央星智党"
+    ID: 4930
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+    id_hierarchy: "L7"
+    id_uniquetag: "The Astra-Sages Part"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "星智党"
+        explanationbackground: ""
+      item-1:
+        attribute: "alias"
+        fact_value: "The Centralists"
+        explanationbackground: "中央党"
+      item-2:
+        attribute: "base_supporters"
+        fact_value: "- \"中央・ナギ神殿近隣\"       - \"聖域の住民\"       - \"高位神官家系\"       - \"宗教官僚\""
+        explanationbackground: ""
+      item-3:
+        attribute: "ideology"
+        fact_value: "神権至上主義（ウルトラモンタニズム"
+        explanationbackground: "- \"中央・ナギ神殿近隣\"       - \"聖域の住民\"       - \"高位神官家系\"       - \"宗教官僚\""
+      item-4:
+        attribute: "base_supporters"
+        fact_value: ""
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "The Concordance Party/調和党"
+    ID: 4931
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+    id_hierarchy: "L7"
+    id_uniquetag: "Concordance Part"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "The Concordance Party,調和党"
+        explanationbackground: ""
+      item-1:
+        attribute: "alias"
+        fact_value: "宮廷保守派 (The Court Party)"
+        explanationbackground: "天導宰相府を支持し、実務的な裏回しを担う現実主義派"
+      item-2:
+        attribute: "base_supporters"
+        fact_value: "- \"中央領地\"       - \"南部の旧領\"       - \"世俗貴族\"       - \"紡績本家\"       - \"宰相府高官\""
+        explanationbackground: ""
+      item-3:
+        attribute: "parliamentary_role"
+        fact_value: "- \"神殿と地方勢力の「接着剤」\""
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "ideology"
+        description: "現状維持"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "The Enlightenment Party/啓明党"
+    ID: 4933
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+    id_hierarchy: "L1"
+    id_uniquetag: "EnlightenmentP"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "北方産業労働同盟 (Northern Industrial Labor Union)"
+        explanationbackground: ""
+      item-1:
+        attribute: "classification"
+        fact_value: "explanationbackground"
+        explanationbackground: "北部の重工業地帯を基盤とし、「工場の論理」で国の再編を狙う。"
+      item-2:
+        attribute: "base_supporters"
+        fact_value: "- \"北部「鉄と闇の領域」\"       - \"産業ギルド（ラヴァル家など）\"       - \"技術士官\"       - \"中産階級\""
+        explanationbackground: ""
+      item-3:
+        attribute: "parliamentary_role"
+        fact_value: "- \"南部荘園経済への痛烈な批判\"       - \"国家の近代化推進\""
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "ideology"
+        description: "- \"生産効率の向上\"       - \"軍備拡張\"       - \"科学的憲章解釈\""
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "The Manorial Alliance/憲政保守党"
+    ID: 4934
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4959
+        Target_Title: "UdianMonarchy/ウディアン王政"
+    id_hierarchy: "L1"
+    id_uniquetag: "Manorial_Alliance"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "The Manorial Alliance"
+        explanationbackground: "荘園同盟、荘園騎士同盟とも"
+      item-1:
+        attribute: "classification"
+        fact_value: "家父長制的伝統主義（Paternalistic Traditionalism）"
+        explanationbackground: "南部の豊かな農園地帯を基盤とし、古き良き秩序と自治権を守る。"
+      item-2:
+        attribute: "base_supporters"
+        fact_value: "- \"南部荘園地帯\"       - \"大土地所有者（荘園領主）\"       - \"修道院騎士\"       - \"伝統家系\"　"
+        explanationbackground: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "ideology"
+        description: "- \"王権神授説\"       - \"保護関税\"       - \"中世的伝統と貴族的な特権の維持\""
+        modality: "Statutory"
+      item-1:
+        subject: "parliamentary_role"
+        description: "- \"水生人奴隷制と土地特権の死守\"       - \"南部の自治権防衛\""
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "Liberal-Labor/教労党"
+    ID: 4935
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4928
+        Target_Title: "The Hall of Concordance/協定院/議会"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4952
+        Target_Title: "Arbirkhu Ziṭunqu Iswir"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4993
+        Target_Title: "Urukghartin/工廠都市ウルクハーティン"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4994
+        Target_Title: "商会連合/Merchants&#8217; Union of Urkhartin"
+    id_hierarchy: "L7"
+    id_uniquetag: "Liberal-Labor"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "地方主権派 (The Decentralists)"
+        explanationbackground: "地方自治主義・自由主義（Liberalism / Local Autonomy"
+      item-1:
+        attribute: "description"
+        fact_value: "神殿の技術独占からの脱却と、経済的自立を目指す新興勢力"
+        explanationbackground: ""
+      item-2:
+        attribute: "base_supporters"
+        fact_value: "- \"辺境の島々\"       - \"新興交易都市\"       - \"工場労働者\"       - \"独立商人\"       - \"科学者\""
+        explanationbackground: "ヘネ・ディマグヌイなどの有力な地方資本家"
+      item-3:
+        attribute: "diversity"
+        fact_value: "ヌマワタリ族の党員"
+        explanationbackground: "salt burn出身の、金融業のヌマワタリ族が構成員として在籍している。"
+    the_rule_constraints: 
+      item-0:
+        subject: "ideology"
+        description: "- \"地方の自立\"       - \"階級格差の是正\""
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "ZaraWastiq/ザラ・ワスティク"
+    ID: 4936
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L5"
+    id_uniquetag: "ZaraWastiq"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "ソルトバーン.、焼潮の地"
+        explanationbackground: ""
+      item-1:
+        attribute: "administrative"
+        fact_value: "District Lime、第４石灰採掘区"
+        explanationbackground: ""
+      item-2:
+        attribute: "etymology"
+        fact_value: "地表を覆う結晶化した厚い塩の層"
+        explanationbackground: "何も育たない、白く乾いた死の大地"
+      item-3:
+        attribute: "role"
+        fact_value: "廃棄物処理場 / 建築資材（石灰・塩）の採掘場 /末端労働者"
+        explanationbackground: ""
+      item-4:
+        attribute: "dominion"
+        fact_value: "ナギ神殿直轄領"
+        explanationbackground: ""
+      item-5:
+        attribute: "indigenous inhabitants"
+        fact_value: "ヌマワタリ族"
+        explanationbackground: "南部の荘園騎士によって中世に開拓された。虐殺の歴史"
+      item-6:
+        attribute: "enviroment"
+        fact_value: "嵐季は湿地帯、穏季は極端な乾燥地帯。ひび割れた泥質"
+        explanationbackground: ""
+      item-7:
+        attribute: "geographical_features"
+        fact_value: "強アルカリ性の粉塵が舞う、真っ白な石灰と塩の混合物"
+        explanationbackground: "石灰により脱水・硬化したマングローブの死骸。ヌマワタリ族にとっての「祖先の墓標」"
+      item-8:
+        attribute: "quotes"
+        fact_value: "人間はここを『ソルトバーン（焦げた塩）』と呼ぶ……。だが忘れるな。焼かれたのは塩ではない。我々の肌と、故郷の水だ"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Skava"
+    ID: 4938
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L2"
+    id_uniquetag: "Skava"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "literal_meaning"
+        fact_value: "海岸 / 防波堤"
+        explanationbackground: "マグマと海が直接ぶつかり合う過酷な地。     ヴァスカ人がその熱を継承し、外敵や自然から世界を守る「守護者」であることを象徴する地名。"
+      item-1:
+        attribute: "geography"
+        fact_value: "\"スティルリーチ北側（上部）、北の群島との境界\""
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Amber"
+    ID: 4939
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4941
+        Target_Title: "INSELBERG_MONASTERY"
+    id_hierarchy: "L2"
+    id_uniquetag: "Amber"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "アンバー（琥珀地帯）"
+        explanationbackground: ""
+      item-1:
+        attribute: "facing_sea"
+        fact_value: "黄金海 (Golden Sea / Raikin Inner Sea)"
+        explanationbackground: ""
+      item-2:
+        attribute: "coordinates"
+        fact_value: "\"南東沿岸部、広大な大陸棚エリア"
+        explanationbackground: ""
+      item-3:
+        attribute: "topography_type"
+        fact_value: "超広域遠浅干潟 (Super-Extended Tidal Flat)"
+        explanationbackground: "400メートルの潮汐差による物理的侵食。微細化したミネラル類が沿岸部に堆積。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "INSELBERG_MONASTERY"
+    ID: 4941
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4939
+        Target_Title: "Amber"
+    id_hierarchy: "L6"
+    id_uniquetag: "MONASTERY"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "アンバー荘園修道院"
+        explanationbackground: ""
+      item-1:
+        attribute: "geological_foundation"
+        fact_value: "結晶質基盤岩（インゼルベルク）"
+        explanationbackground: ""
+      item-2:
+        attribute: "architectural_layers"
+        fact_value: "至聖所・観測塔・要塞・城"
+        explanationbackground: ""
+      item-3:
+        attribute: "occupant"
+        fact_value: "修道士・徴税官・巡礼者"
+        explanationbackground: ""
+      item-4:
+        attribute: "event"
+        fact_value: ""
+        explanationbackground: "各地の残丘を占拠した修道騎士団や領主が独立割拠。この時期、虚光機関を用いた『潮汐演算』が聖術として体系化される。「潮を読める者が、死（満潮）と生（干潮）を支配する」という論理により、孤島は単なる避難所から、周辺の干潟を支配する『荘園修道院』へと進化した。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Thornhill"
+    ID: 4942
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+    id_hierarchy: "L2"
+    id_uniquetag: "Thornhill"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "location"
+        fact_value: "スティルリーチ大陸北西部"
+        explanationbackground: "断崖と荒野が続く『最果ての岬』"
+      item-1:
+        attribute: "geological_features"
+        fact_value: "深く切り立った断崖、年中霧に覆われた丘陵地帯、底知れぬ坑道"
+        explanationbackground: ""
+      item-2:
+        attribute: "primary_industry"
+        fact_value: "モグラのような深層採掘（北部の露天掘りとは対照的な技術）"
+        explanationbackground: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Qardum Ziṭunqu ’Iswir"
+    ID: 4951
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4952
+        Target_Title: "Arbirkhu Ziṭunqu Iswir"
+    id_hierarchy: "L8"
+    id_uniquetag: "QardumIswir"
+    id_startyear: 35952
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "Role"
+        fact_value: "Prime minister of Divine guidance chancellery "
+        explanationbackground: "35988年に宰相に就任する。"
+    the_rule_constraints: ""
+    core_event: ""
+    Content: |
+      
+
+  - Title: "Arbirkhu Ziṭunqu Iswir"
+    ID: 4952
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4945
+        Target_Title: "House Iswir"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4935
+        Target_Title: "Liberal-Labor/教労党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4951
+        Target_Title: "Qardum Ziṭunqu ’Iswir"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4955
+        Target_Title: "mountain stream railway"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4945
+        Target_Title: "House Iswir"
+    id_hierarchy: "L1"
+    id_uniquetag: "Arbirqu "
+    id_startyear: 35892
+    endyear: 35998
+    core_concept: 
+      item-0:
+        attribute: "alias"
+        fact_value: "- イスウィル家中興の祖　- 近代の怪物"
+        explanationbackground: ""
+      item-1:
+        attribute: "ideology"
+        fact_value: "伝統という殻を維持したまま、中身を強引に近代化・産業化する"
+        explanationbackground: "ビスマルク的現実主義、時代を見越した、イデオロギーに囚われない先見の明。"
+      item-2:
+        attribute: "adolescence"
+        fact_value: "イスウィル家の没落。地方の徴税官や代筆業として雌伏"
+        explanationbackground: "大貴族の放蕩による膨大な借金の実態の把握"
+      item-3:
+        attribute: "Strategic abandonment"
+        fact_value: "貴族の鉄道利権横領を敢えて見逃す。"
+        explanationbackground: "汚職の証拠を握り、貴族階級を二度と逆らえないよう完全に掌握する。"
+      item-4:
+        attribute: "key_achievements"
+        fact_value: "スティルリーチ渓流鉄道の敷設"
+        explanationbackground: ""
+      item-5:
+        attribute: "social_control"
+        fact_value: "国家主導の社会保険"
+        explanationbackground: ""
+      item-6:
+        attribute: "political_unification"
+        fact_value: "聖領主連合の再編"
+        explanationbackground: "地方諸侯を「統一国家」の枠組みに強制的に組み込む。"
+    core_event: 
+      item-1:
+        evenname: "Political debut"
+        eventyear: 35930
+        description: "伝統の守護者を掲げ「過激な保守主義者」として中央政界へ返り咲く。"
+      item-2:
+        evenname: "Railway concept"
+        eventyear: 35938
+        description: "リベラル派の悲願を保守の主導で達成し、分断された諸侯を統一国家へ変貌させる"
+      item-0:
+        evenname: "Appointed prime minister"
+        eventyear: 35948
+        description: "地方貴族から、中央宰相まで激動の中でのし上がった名君として称えられる。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Silent Summer"
+    ID: 4953
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+    id_hierarchy: "L8"
+    id_uniquetag: "SilentSummer"
+    id_startyear: 35988
+    endyear: 35989
+    core_concept: 
+      item-0:
+        attribute: "event_name"
+        fact_value: "沈黙の夏事件"
+        explanationbackground: ""
+      item-1:
+        attribute: "incidents"
+        fact_value: "異端審問局による大規模粛清"
+        explanationbackground: ""
+      item-2:
+        attribute: "leader"
+        fact_value: "J.K.ヴァルゴ"
+        explanationbackground: ""
+      item-3:
+        attribute: "target"
+        fact_value: "天蓋主義官僚"
+        explanationbackground: ""
+      item-4:
+        attribute: "purpose"
+        fact_value: "第39代大紋様官であるゲンサーリ・ナザール依頼の、惑星外勢力への極端な神話的意味解釈(天蓋主義)の廃止"
+        explanationbackground: "枢密院による暗躍、アクラブ産労連盟を直視するフェーズへと移行した。"
+      item-5:
+        attribute: "result"
+        fact_value: "宰相府への枢密院の影響の増大"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "canopyism"
+    ID: 4954
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+    id_hierarchy: "L7"
+    id_uniquetag: "canopyism"
+    id_startyear: 35709
+    endyear: 35988
+    core_concept: 
+      item-0:
+        attribute: "name"
+        fact_value: "天蓋主義"
+        explanationbackground: "星外（アクラブ等）の影響を徹底排除する原理主義のことを指す"
+      item-1:
+        attribute: "name"
+        fact_value: "意味論的監獄"
+        explanationbackground: "未知との遭遇（アクラブ襲来）を、既存の宗教的・文化的枠組みで過度に解釈した結果、その解釈自体に束縛され脱却不能となった状態。"
+    core_event: 
+      item-0:
+        evenname: "SilentSummer"
+        eventyear: 35988
+        description: "ヴァルゴらによって、異端として粛清される。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "mountain stream railway"
+    ID: 4955
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4952
+        Target_Title: "Arbirkhu Ziṭunqu Iswir"
+    id_hierarchy: "L6"
+    id_uniquetag: "MSR"
+    id_startyear: 35938
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "public_justification"
+        fact_value: "- \"軍事的な防衛網の構築\" - \"南北を走る大陸の背骨\""
+        explanationbackground: ""
+      item-1:
+        attribute: "strategic_intent:"
+        fact_value: "- \"分断された領土の物理的な連結\"- \"中央政府による情報の一括管理\"       - \"物流の独占による産業化の推進\"       - \"地方の隅々まで行政の実効性を浸透させる「鉄の血管」としての機能\""
+        explanationbackground: ""
+      item-2:
+        attribute: "corruption_management"
+        fact_value: "北部と南部貴族等による鉄道利権の横領"
+        explanationbackground: ""
+      item-3:
+        attribute: "Plannner"
+        fact_value: "アルビルク・イスウィルが南北貴族の仲介役となり、爆発的なスピードで立案建造した。"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "The First Udian War/第一次ウディアン戦争"
+    ID: 4956
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4925
+        Target_Title: "holy_union_of_lords"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4957
+        Target_Title: "Declaration of Planetary Sovereignty by udian"
+    id_hierarchy: "L8"
+    id_uniquetag: "First Udian War"
+    id_startyear: 35719
+    endyear: 35807
+    core_concept: 
+      item-0:
+        attribute: "theaters"
+        fact_value: "Seabed Sanctuaries, Coastal Waters"
+        explanationbackground: ""
+      item-1:
+        attribute: "belligerents of land"
+        fact_value: "天導宰相府及び神聖諸侯連合"
+        explanationbackground: ""
+      item-2:
+        attribute: "belligerents from sea"
+        fact_value: "Udian Monarchy"
+        explanationbackground: "ヒルトゥプ族による支配"
+      item-3:
+        attribute: "notable_figures"
+        fact_value: "Barangar-yu(波涛の騎士バランガリユ)"
+        explanationbackground: "Knight of the Surging Waves"
+      item-4:
+        attribute: "victim_grievances"
+        fact_value: "- Desecration of Sacred Sanctuaries (聖域の侵奪)       - Ecological Destruction (生態系の破壊)"
+        explanationbackground: ""
+    core_event: 
+      item-0:
+        evenname: "Pseudo-Light Engine Development completed"
+        eventyearstart: ""
+        eventyearend: ""
+        description: ""
+      item-1:
+        evenname: "Discovery"
+        eventyearstart: ""
+        eventyearend: ""
+        description: "Colloid as high-value interstellar fuel"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Declaration of Planetary Sovereignty by udian"
+    ID: 4957
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4956
+        Target_Title: "The First Udian War/第一次ウディアン戦争"
+    id_hierarchy: "L8"
+    id_uniquetag: "diplomatic_declarati"
+    id_startyear: 35720
+    endyear: 35807
+    core_concept: 
+      item-0:
+        attribute: "diplomatic_declaration"
+        fact_value: "Declaration of Planetary Sovereignty"
+        explanationbackground: "海の民こそがヤ＝ムゥの正当なる支配者である"
+      item-1:
+        attribute: "demands_to_land_dwellers"
+        fact_value: "Subjugation under Udian \"Protection\""
+        explanationbackground: ""
+      item-2:
+        attribute: "requirements:"
+        fact_value: "- Immediate cessation of seabed mining (海底採掘の即時停止)       - Recognition of Udian planetary hegemony (ウディアンの惑星覇権の承認)"
+        explanationbackground: ""
+      item-3:
+        attribute: "Instigator"
+        fact_value: "産労連盟"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "Inconsistency of udian"
+        description: "海洋民族ウディアンは、一貫した軍隊や国家などを持つわけではなく、その実態は終始ゲリラ的な戦術にとどまった。"
+        modality: "Absolute"
+    Content: |
+      
+
+  - Title: "UdianMonarchy/ウディアン王政"
+    ID: 4959
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4934
+        Target_Title: "The Manorial Alliance/憲政保守党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4960
+        Target_Title: "SECOND_UDIAN_WAR"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4917
+        Target_Title: "Laikine the Shallows"
+    id_hierarchy: "L7"
+    id_uniquetag: "UdianMonarchy"
+    id_startyear: 35807
+    endyear: 35957
+    core_concept: 
+      item-0:
+        attribute: "primary_alliance"
+        fact_value: "Southern Manor Nobles (南部荘園貴族) &amp; Hiltup Tribe (ヒルトゥプ族)"
+        explanationbackground: "初期の王族庇護から、徐々に階層奴隷制へと移っていく。"
+      item-1:
+        attribute: "name_en"
+        fact_value: "The Era of Institutionalized Stratification and Rise of the Early Udian Monarchy"
+        explanationbackground: ""
+    core_event: 
+      item-0:
+        evenname: "name_jp"
+        eventyear: 35808
+        description: "階層化奴隷制の定着期（初期ウディアン王政勃興期）"
+      item-1:
+        evenname: "統治代行期（以前として捕虜扱い）"
+        eventyear: 35808
+        description: "- 南部荘園貴族による直接命令系統         - 中央政府（天導政権）によるウディアン再組織化への強い警戒         - 生き残りのための実務的服従"
+      item-2:
+        evenname: "制度構築期"
+        eventyear: 35838
+        description: "- 戦争を知らない二代目貴族とヒルトゥプ族の台頭         - 南部貴族による税逃れ・規制回避のための「ウディアン自治」の利用開始         - 陸の宮廷文化、礼儀作法の初期導入"
+      item-3:
+        evenname: "正式承認期（王政設立）"
+        eventyear: 35868
+        description: "「奴隷制」を「王政による国内統治」へ言い換え、中央の介入を遮断、上の政治機構の完全模倣、邸宅の地上化（沿岸部への移住）"
+      item-4:
+        evenname: "安定・形骸化期"
+        eventyear: 35898
+        description: "- ヒルトゥプ王族の陸上貴族化        - 「陸の庇護なしには権威を維持できない」不可逆的な依存関係の完成         - 被支配部族（奴隷層）における怨嗟の蓄積"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "SECOND_UDIAN_WAR"
+    ID: 4960
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4959
+        Target_Title: "UdianMonarchy/ウディアン王政"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4912
+        Target_Title: "Blackwater Treaty(黒水条約)"
+    id_hierarchy: "L8"
+    id_uniquetag: "Second Udian War"
+    id_startyear: 35958
+    endyear: 35977
+    core_concept: 
+      item-0:
+        attribute: "instigator_behind_scenes"
+        fact_value: "産労連盟（ハイドロ宙海 / アクラブ星系）"
+        explanationbackground: "南部貴族の保護下にいたウディアン王政が産労連盟との蜜謀のもと、反旗を翻す"
+      item-1:
+        attribute: "resource_monopoly"
+        fact_value: "両陣営を疲弊させ、介入を通じて本格的な入植の準備を行う"
+        explanationbackground: ""
+      item-2:
+        attribute: "nature"
+        fact_value: "産労連盟による200年計画の最終段階であり、内憂外患を利用した「国家解体」プロセス"
+        explanationbackground: ""
+    core_event: 
+      item-0:
+        evenname: "war_outcome"
+        eventyearstart: 35977
+        eventyearend: ""
+        description: "ヒルトゥプ族の投降と反乱軍の解散。両陣営の著しい国力消耗"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "RıhtımBur/ルフトゥム・バール"
+    ID: 4961
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4912
+        Target_Title: "Blackwater Treaty(黒水条約)"
+    id_hierarchy: "L1"
+    id_uniquetag: "RıhtımBur"
+    id_startyear: 35952
+    endyear: 35983
+    core_concept: 
+      item-0:
+        attribute: "job"
+        fact_value: "天導宰相"
+        explanationbackground: ""
+      item-1:
+        attribute: "political achievements"
+        fact_value: "黒水条約の締結"
+        explanationbackground: "北部資本家の圧力により、枢密院の許可なく黒水条約を締結した。後の尊王攘夷へのきっかけとなる"
+    core_event: 
+      item-0:
+        evenname: "assassination"
+        eventyearstart: 35983
+        eventyearend: ""
+        description: "南部の尊王攘夷派によって暗殺される。すでに引退し、隠居中のことだった。"
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "Lord Dieufreche"
+    ID: 4963
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4983
+        Target_Title: "Lord Cetasion"
+    id_hierarchy: "L8"
+    id_uniquetag: "LordDieufreche"
+    id_startyear: 35958
+    endyear: 35997
+    core_concept: 
+      item-0:
+        attribute: "motifs"
+        fact_value: "蛇（禁忌：循環・永遠）"
+        explanationbackground: "secondary: \"彗星（革新・破壊）\""
+    core_event: 
+      item-0:
+        evenname: "惑星トゥパへの派遣"
+        eventyearstart: 35978
+        eventyearend: ""
+        description: "ヤ＝ムゥ駐在特命全権大使 兼 航路安全保障委員会委員長"
+      item-1:
+        evenname: "処女懐胎"
+        eventyearstart: 35980
+        eventyearend: ""
+        description: "聖遺物『ヴォルパ』をハックし、自身のクローン『ミズハ』を処女懐胎"
+      item-2:
+        evenname: "蜘蛛の巣の外交と遅延、かく乱戦術"
+        eventyearstart: 35978
+        eventyearend: 35997
+        description: "トゥパの三勢力（ISF, HCE, SLRW）への矛盾した密約供与"
+      item-3:
+        evenname: "不可能なる帰還"
+        eventyearstart: 35997
+        eventyearend: ""
+        description: "- \"強行降下：アクラブ暗殺部隊をカオス軌道で振り切りヤ＝ムゥへ帰還\""
+    the_rule_constraints: ""
+    Content: |
+      
+
+  - Title: "naz_lady_protocol"
+    ID: 4965
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4924
+        Target_Title: "privy_council"
+    id_hierarchy: "L7"
+    id_uniquetag: "naz_lady_protocol"
+    id_startyear: 34700
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "core_concepts"
+        fact_value: "ヤ＝ムゥの上級階層の女性における、修練を終えたもののみに授けられる特別な身分"
+        explanationbackground: "古代においては巫女 神官だったが、現代ではヤ＝ムゥにおける宗教的、神学的、マナーや学芸を中央神殿にて学んだ高貴な女性全般を指す"
+      item-1:
+        attribute: "privileges"
+        fact_value: "聖別の印(商売や土地売買などにおける優先権、神学的お墨付き)、潮汐情報の優先的譲渡、その解釈、神託の一部解釈と告知の許可。"
+        explanationbackground: ""
+      item-2:
+        attribute: "Training institution"
+        fact_value: "若枝の館 / 女君院/魂の苗床"
+        explanationbackground: "\"ナギ教義\", \"歴史\", \"応用占星術\", \"礼法\",\"医学\",\"調理\"など幅広い範囲を学ぶ。レディーとなるために。"
+      item-3:
+        attribute: "marriage control"
+        fact_value: "神託下賜にてナズは名家の男児や、新興の起業家に下賜される。"
+        explanationbackground: "貌織という家柄を示す紋様の編まれた布で顔を隠した状態で、配属先たる婚姻相手が決まるのだ。"
+      item-4:
+        attribute: "RITUAL_OF_ECSTASY"
+        fact_value: "聖悦の儀軌"
+        explanationbackground: "夜の営みの手筈や、性知識への教育も欠かさない。がこれは任意による勉強である。"
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "Stealth Surveillance"
+        description: "嫁ぎ先の内部監視。不正および反逆予兆の検知"
+        modality: "Statutory"
+      item-1:
+        subject: "No Free Romance"
+        description: "自由恋愛は伝統的には認められないが、時代の流れとともに許される風潮となっている。"
+        modality: "Normative"
+      item-2:
+        subject: "Veiling, Dress code"
+        description: "公共の場所における貌織による顔の秘匿、体形まで分からないように。"
+        modality: "Normative"
+      item-3:
+        subject: "Voice trainig"
+        description: "声のみで相手を支配する必要があるため、美しく力強い声を鍛え、話す必要がある。"
+        modality: "Normative"
+    Content: |
+      
+
+  - Title: "Lord Cetasion"
+    ID: 4983
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4924
+        Target_Title: "privy_council"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4963
+        Target_Title: "Lord Dieufreche"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4878
+        Target_Title: "The Hush-Crags"
+    id_hierarchy: "L7"
+    id_uniquetag: "Lord Cetasion"
+    id_startyear: 35931
+    endyear: 36002
+    core_concept: 
+      item-0:
+        attribute: "Role"
+        fact_value: "太陽柱"
+        explanationbackground: "ナズの女君を統べる、最高意思決定機関である「枢密院」を主宰する絶対的な権威"
+      item-1:
+        attribute: "Ideology"
+        fact_value: "沈黙派（シレンティア)"
+        explanationbackground: "厳しい戒律を重んじ、世俗を離れ耐え忍ぶことを重んじる。"
+      item-2:
+        attribute: "exclusive residence"
+        fact_value: "山奥に庵を構え、そこで修道生活を営んだ。"
+        explanationbackground: "真実と未来を見通すためには、世俗という雑念から遠ざかることを重んじた。"
+      item-3:
+        attribute: "統治手腕"
+        fact_value: "就任当初はその予知能力と、統治能力を駆使し、枢密院を指揮した。"
+        explanationbackground: "後年は庵にこもりがちであった。"
+    core_event: 
+      item-0:
+        evenname: "下山"
+        eventyearstart: 35997
+        eventyearend: ""
+        description: "職務のためにも山奥から降りてこない厳格さだったが、ディウフレーシュの再来という噂がたち世俗権力の疑心暗鬼を払うため姿を現すように。"
+      item-1:
+        evenname: "派兵"
+        eventyearstart: 36001
+        eventyearend: 36002
+        description: "公式には特使を否定しつつ、裏では異端審問官を派兵。噂が真実になる前にディウフレーシュを抹殺しようと試みた。"
+    the_rule_constraints: 
+      item-0:
+        subject: "教義の無謬性死守"
+        description: "伝統的なナギ教義を守るため、アクラブ産労連盟の存在そのものを否定し続けた。(創造論者と進化論の戦いに近い)"
+        modality: "Absolute"
+      item-1:
+        subject: "とうちしゅわ"
+        description: ""
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Mechanical Heliograph"
+    ID: 4987
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4835
+        Target_Title: "Pneumatica"
+    id_hierarchy: "L1"
+    id_uniquetag: "Heliograph"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "device_specification"
+        fact_value: "Mechanical Heliograph (Optical Communication)"
+        explanationbackground: ""
+      item-1:
+        attribute: "data_transmission"
+        fact_value: "バイナリ・コード"
+        explanationbackground: "モールス符号に近い独自の信号体形"
+      item-2:
+        attribute: "light_source"
+        fact_value: "石灰光（ライムライト）"
+        explanationbackground: "干潟で採取された貝殻や石灰岩を焼き固めた石灰筒"
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "Scale of size"
+        description: "太陽光が乏しいため、大型装置による強力な光源を必用とする。"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "PipePost"
+    ID: 4989
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4985
+        Target_Title: "Fluidica/フルイデカ"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4835
+        Target_Title: "Pneumatica"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4990
+        Target_Title: "pneumatic_routing_system"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4991
+        Target_Title: "pneumatic pipe post operator"
+    id_hierarchy: "L5"
+    id_uniquetag: "PipePost"
+    id_startyear: 35500
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "mechanism"
+        fact_value: "流体制御（圧縮空気等）"
+        explanationbackground: ""
+      item-1:
+        attribute: "infrastructure"
+        fact_value: "真空パイプ網"
+        explanationbackground: "都市内ネットワーク"
+      item-2:
+        attribute: "performance velocity:"
+        fact_value: "100km/h"
+        explanationbackground: "最高速"
+      item-3:
+        attribute: "payload"
+        fact_value: "専用カプセル"
+        explanationbackground: "セラミックプレートや木片、手紙"
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "Infrastructure limitations"
+        description: "大型都市内のポストに限る、外部から郵送された便は、中央郵便局から高速で分類される。"
+        modality: "Statutory"
+    Content: |
+      
+
+  - Title: "pneumatic_routing_system"
+    ID: 4990
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4989
+        Target_Title: "PipePost"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4985
+        Target_Title: "Fluidica/フルイデカ"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4835
+        Target_Title: "Pneumatica"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4871
+        Target_Title: "Weno-Matr"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4991
+        Target_Title: "pneumatic pipe post operator"
+    id_hierarchy: "L7"
+    id_uniquetag: " City central post o"
+    id_startyear: 35700
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "tagging_mechanism"
+        fact_value: "微細穿孔リング"
+        explanationbackground: "通信カプセル表面の物理的凹凸・スリット"
+      item-1:
+        attribute: "pneumatic classification mechanism"
+        fact_value: "カプセルの凹凸による空気穴の開閉"
+        explanationbackground: "微細な気圧のパルス（流体論理回路への0/1入力）"
+      item-2:
+        attribute: "environmental_profile"
+        fact_value: "都市中央交換局（ザ・グランド・ルーター）"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "acoustic_environment"
+        description: "- \"微細な空気流音（シュー、スゥゥ）\"       - \"制御気流の吐息音（フッ）\"       - \"機械的な打撃音の不在\""
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "pneumatic pipe post operator"
+    ID: 4991
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4989
+        Target_Title: "PipePost"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4990
+        Target_Title: "pneumatic_routing_system"
+    id_hierarchy: "L7"
+    id_uniquetag: "PP_operator"
+    id_startyear: 35600
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "name_jp"
+        fact_value: "カプセル装填・交換手"
+        explanationbackground: ""
+      item-1:
+        attribute: "duty_details"
+        fact_value: "真鍮製送管口へのカプセル挿入、気流制御レバーの操作"
+        explanationbackground: "1日12時間の無言かつ単調な反復作業"
+      item-2:
+        attribute: "required_skills"
+        fact_value: "最低限の文字・記号の識字能力"
+        explanationbackground: ""
+      item-3:
+        attribute: "physical_strain"
+        fact_value: "- \"慢性的な腱鞘炎（レバー操作およびカプセル押し込みによる）\"         - \"肩および背中の慢性疼痛\""
+        explanationbackground: "- \"恒常的な耳鳴り（吸気音「シューッ、カコン」の長時間暴露による）\""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "workplace"
+        description: "都市中央交換局・配管だらけの狭い作業室（スイッチ・ルーム）"
+        modality: "Normative"
+    Content: |
+      
+
+  - Title: "itinerant_calculators"
+    ID: 4992
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4709
+        Target_Title: "Nagi"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4926
+        Target_Title: "Divine chancellery/天導宰相府"
+    id_hierarchy: "L1"
+    id_uniquetag: "itinerant_calculator"
+    id_startyear: 35000
+    endyear: 35900
+    core_concept: 
+      item-0:
+        attribute: "title"
+        fact_value: "The Itinerant Calculators\""
+        explanationbackground: "巡算官"
+      item-1:
+        attribute: "social_role"
+        fact_value: "嵐と潮汐によって物理的境界が消失した干潟に、数学と宗教的権威を用いて『所有権』と『生存の枠組み』を再構築する、中央修道院直属の代行者。"
+        explanationbackground: ""
+      item-2:
+        attribute: "political_neutrality_code"
+        fact_value: "- \"中央の税収確保と地方領主の生存維持の均衡を保つ義務（建前上）\"       - \"独自の測量を行う『私的測量士』の雇用は、中央の理法に対する異端行為（叛逆）と規定する\""
+        explanationbackground: ""
+      item-3:
+        attribute: "resource_arbitration"
+        fact_value: "干潟や浜、磯における期待カロリーや価値の算出\" "
+        explanationbackground: " impact: \"領民の生存権および領主の経済的地位の決定\""
+      item-4:
+        attribute: "political_maneuvering"
+        fact_value: "- \"フェイヴァ（賄賂）による境界線の恣意的拡張\"         - \"税率操作を目的とした『意図的な計測誤差（不毛な泥としての計上）』\""
+        explanationbackground: "中央の搾取（過大見積もり） vs 地方の隠蔽（過小申告）"
+      item-5:
+        attribute: "primary_tool"
+        fact_value: "測量杖（ジオ・スタッフ）"
+        explanationbackground: "目盛り付き真鍮杖、小型星位観測儀、流体レンズ搭載"
+      item-6:
+        attribute: "support_unit"
+        fact_value: "従者（計算手）"
+        explanationbackground: "背中に背負ったナギ教の聖印(シジル)の御旗、背負い式歯車計算機、水銀アストロラブ、防水皮紙の大台帳\""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "legal_primacy"
+        description: "- \"巡算官による測量と登記がない土地は、物理的占有に関わらず『無』と見なす\"       - \"算出された『期待カロリー』は、その領地の最大人口（スロット）と徴税額の法的根拠となる\""
+        modality: "Statutory"
+      item-1:
+        subject: "technical_limitations:"
+        description: "- \"強磁場環境につき、磁気方位計および電子計測機器の使用を厳禁とする\"       - \"測量は『星位』『ナギ潮位標』『流体水準器』のみを基準点とする\""
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "Urukghartin/工廠都市ウルクハーティン"
+    ID: 4993
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4935
+        Target_Title: "Liberal-Labor/教労党"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4869
+        Target_Title: "The Still Reach"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Dependent
+        Target_ID: 4996
+        Target_Title: "Galmil_Hawwaf"
+    id_hierarchy: "L6"
+    id_uniquetag: "Urukghartin"
+    id_startyear: 35000
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "features"
+        fact_value: "eroded, ancient, basin, estuary"
+        explanationbackground: "湿った産業港湾都市"
+      item-1:
+        attribute: "attribute"
+        fact_value: "Complex strata"
+        explanationbackground: "垂直のウェノマトルに対し、水平に伸びていく都市"
+      item-2:
+        attribute: "governance"
+        fact_value: "Pragmatic Corporatocracy (Guilds/Chambers)"
+        explanationbackground: "ナギ教の権威を重んじつつも、商工会が同等の権威をもつ。"
+      item-3:
+        attribute: "Major trading partners"
+        fact_value: "Baltimore, MD"
+        explanationbackground: "近郊の川と、豊富な水源。チェサピーク湾の最奥部"
+      item-4:
+        attribute: "Pneumatica"
+        fact_value: "都市の構造そのものが巨大な並列プロセッサ（流体論理回路）"
+        explanationbackground: ""
+      item-5:
+        attribute: "Location"
+        fact_value: " Denver: Eastern Gateway to the Submerged Continent"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "energy_system"
+        description: "Managed Flow (Grid-based), Regulated pressure / Multi-conduit"
+        modality: "Physical　"
+      item-1:
+        subject: "authority_flow"
+        description: "Multilateral (Inter-sector Negotiation)"
+        modality: "Statutory"
+      item-2:
+        subject: "economic development basis"
+        description: "The spread of steam ships led to control of the shallow tidal flats on the east side"
+        modality: "Physical　"
+    Content: |
+      
+
+  - Title: "商会連合/Merchants\' Union of Urkhartin"
+    ID: 4994
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4935
+        Target_Title: "Liberal-Labor/教労党"
+      - Type: "Dependencies"
+        Role: Dependent
+        Target_ID: 4996
+        Target_Title: "Galmil_Hawwaf"
+    id_hierarchy: "L7"
+    id_uniquetag: "Merchants\' Union"
+    id_startyear: 35299
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "historical_model"
+        fact_value: "- Gilded Age Industrialists (Robber Barons)       - Hanseatic League Patricians"
+        explanationbackground: ""
+      item-1:
+        attribute: "power_base"
+        fact_value: "Intellectual Property (Fundamental patents for fluid elements)"
+        explanationbackground: ""
+      item-2:
+        attribute: "administrative_layers"
+        fact_value: "1: Municipal Licensing Committee (Bureaucratic front)       2: City Council (Political facade)       3: Merchants\' Union (Economic core)       4: Hawwaf\'s Inner Circle (Strategic apex)"
+        explanationbackground: ""
+      item-3:
+        attribute: "creed"
+        fact_value: "Wealth is the evidence of Justice"
+        explanationbackground: ""
+      item-4:
+        attribute: "geographic_model"
+        fact_value: "High Plains / Rocky Mountain Gateway"
+        explanationbackground: ""
+      item-5:
+        attribute: "urban_atmosphere"
+        fact_value: "Labyrinth of calculation and mist"
+        explanationbackground: ""
+      item-6:
+        attribute: "Trading target"
+        fact_value: "Appalachian /East Coast Port (Baltimore-style)"
+        explanationbackground: ""
+    core_event: ""
+    the_rule_constraints: 
+      item-0:
+        subject: "vs_South_Constitutional_Conservatives"
+        description: "Contract vs. Lineage (Patrician vs. Aristocrat)"
+        modality: "Normative"
+      item-1:
+        subject: "vs_North_Enlightenment_Party"
+        description: "Patent vs. Iron (Technocrat vs. Junker)"
+        modality: "Normative"
+    Content: |
+      
+
+  - Title: "Galmil_Hawwaf"
+    ID: 4996
+    Semantic_Relations:
+      - Type: "LoaHome to LoA entries"
+        Role: Dependent
+        Target_ID: 4627
+        Target_Title: "LoA_EclipsedSamsara"
+      - Type: "Dependencies"
+        Role: Source
+        Target_ID: 4994
+        Target_Title: "商会連合/Merchants&#8217; Union of Urkhartin"
+      - Type: " Spatial & Geopolitical Scope"
+        Role: Source
+        Target_ID: 4993
+        Target_Title: "Urukghartin/工廠都市ウルクハーティン"
+    id_hierarchy: "L7"
+    id_uniquetag: "Galmil_Hawwaf"
+    id_startyear: 0
+    endyear: 99999
+    core_concept: 
+      item-0:
+        attribute: "governance_philosophy"
+        fact_value: "- \"Elimination of Noise (Inefficiency as Sin)\"     - \"Urban Metabolism (The City as a Single Functional Organism)\"     - \"Authority by Circuit (Power through patent and flow control)\""
+        explanationbackground: "人とモノの絶対的な支配欲"
+      item-1:
+        attribute: " quote"
+        fact_value: "財産？そんなもの死んだら何の役に立つ？私は街を起こし、建立者として銅像をたて、後世の者に崇めさせるのだ。王の像よりも、よっぽど撤去されないからな"
+        explanationbackground: ""
+      item-2:
+        attribute: "Flow_Taxation"
+        fact_value: "Revenue is generated based on energy/fluid consumption metrics (Volume-based)"
+        explanationbackground: ""
+      item-3:
+        attribute: "Patent_Monopoly"
+        fact_value: "Exclusive rights to 17 core fluidic element patents"
+        explanationbackground: ""
+    core_event: 
+      item-0:
+        evenname: "Witnessing the \"Extreme of Futility\""
+        eventyearstart: 35930
+        eventyearend: ""
+        description: "Observed the stagnation of urban development due to aristocratic vanity."
+      item-1:
+        evenname: "Inheritance of the \"Scriptures\""
+        eventyearstart: 35950
+        eventyearend: 35960
+        description: "Acquired the bankrupt Pump family\'s designs and patents.Transformed a failed visionary\'s dream into a weapon of monopoly."
+      item-2:
+        evenname: "Second Udian War Dispatched private militia (Zoomfist et al.) to the Cathedral."
+        eventyearstart: 35965
+        eventyearend: 35977
+        description: "Exchanged military support for theological endorsement of \"Flow Taxation.\""
+      item-3:
+        evenname: "17 core patents consolidated under Hawwaf"
+        eventyearstart: 35972
+        eventyearend: ""
+        description: ""
+      item-4:
+        evenname: "The_Great_Construction"
+        eventyearstart: 35980
+        eventyearend: 35990
+        description: "Forced urban remodeling using the Pump Master Plan.Established a four-layered dominance (Union / Council / Committee / Hawwaf)."
+      item-5:
+        evenname: "Maintenance of the Perfect Cycle"
+        eventyearstart: 36002
+        eventyearend: ""
+        description: "Systematic elimination of Lukdur Meander via Ratanne Vostavis.: Recognition of life as a continuation of someone else\'s plan"
+    the_rule_constraints: 
+      item-0:
+        subject: "administrative_logic"
+        description: "Variables over Individuals (Citizens are treated as functional parts)"
+        modality: "Statutory"
+      item-1:
+        subject: "Contractual Supremacy"
+        description: "Theology and Military are tools for economic leverage"
+        modality: "Statutory"
+      item-2:
+        subject: "One-Man Dictatorship"
+        description: "Suppression of decentralized aristocratic interests"
+        modality: "Statutory"
+      item-3:
+        subject: "Patent_Monopoly"
+        description: ""
+        modality: "Statutory"
+    Content: |
+      
+

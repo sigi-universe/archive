@@ -2,5 +2,9 @@
   "mansion_exit_01": {
     "text": "When he left the mansion, he realized he had nowhere to go. The old town near the windswept harbor was dim and deserted as the snow began to fall. Driven by the chilling air blowing from the river,he started walking aimlessly.",
     "image": "images/u9691258498_A_cinematic_low-angle_shot_looking_up_a_steep_nar_d0281010-a450-4e40-b060-985e4e9d0d52_0.png"
+  },
+  "AcrabHall": {
+    "text": "In the Council Hall of the Independent Labor Confederation, an emigration plan was being carefully deliberated.",
+    "image": "images/AcrabHall.jpg"
   }
 }

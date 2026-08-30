@@ -6,5 +6,9 @@
   "AcrabHall": {
     "text": "In the Council Hall of the Independent Labor Confederation, an emigration plan was being carefully deliberated.",
     "image": "images/AcrabHall.png"
+  },
+  "SarasProject": {
+    "text": "Phase1: Saras transplantation, 12-segment separation and pressure-resistant packing. Phase2: In-transit synchronization and drive system adjustment. Phase3:On-site reassembly of all segments and startup testing. Phase4:Phased operational training starting from shallow waters. Drilling Procedure ROV separation and descent, anchor deployment, vertical shaft excavation and wall hardening, and colloid sampling.",
+    "image": "images/saras.png"
   }
 }

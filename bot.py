@@ -1,12 +1,11 @@
-import tweepy
 import os
 import json
 import random
 from pathlib import Path
+import tweepy
 
-TWEETS_FILE  = "tweets.json"
-POSTED_FILE  = "posted_titles.txt"
-SITE_URL     = "https://sigi-universe.com/"
+TWEETS_FILE = "tweets.json"
+POSTED_FILE = "posted_titles.txt"
 
 
 def load_tweets() -> dict:
@@ -32,8 +31,8 @@ def save_posted(title: str):
     Path(POSTED_FILE).write_text("\n".join(sorted(posted)), encoding="utf-8")
 
 
-def pick_tweet(tweets: dict) -> tuple[str, str] | None:
-    """未投稿からランダムに1件選んで (title, text) を返す"""
+def pick_tweet(tweets: dict) -> tuple[str, dict | str]:
+    """未投稿からランダムに1件選んで (title, payload) を返す"""
     posted = load_posted()
     candidates = [(t, v) for t, v in tweets.items() if t not in posted]
 
@@ -45,9 +44,19 @@ def pick_tweet(tweets: dict) -> tuple[str, str] | None:
     return random.choice(candidates)
 
 
-def post_with_reply(tweet_text: str, reply_url: str):
-    """メイン投稿 → リプライでURL挿入"""
-    client = tweepy.Client(
+def post_tweet(tweet_text: str, image_path: str | None = None):
+    """メイン投稿のみ実行（画像があれば添付）"""
+    # v1.1 API（画像アップロード用）
+    auth = tweepy.OAuth1UserHandler(
+        os.environ["API_KEY"],
+        os.environ["API_SECRET"],
+        os.environ["ACCESS_TOKEN"],
+        os.environ["ACCESS_TOKEN_SECRET"]
+    )
+    api_v1 = tweepy.API(auth)
+
+    # v2 API（ポスト送信用）
+    client_v2 = tweepy.Client(
         bearer_token=os.environ["BEARER_TOKEN"],
         consumer_key=os.environ["API_KEY"],
         consumer_secret=os.environ["API_SECRET"],
@@ -55,21 +64,42 @@ def post_with_reply(tweet_text: str, reply_url: str):
         access_token_secret=os.environ["ACCESS_TOKEN_SECRET"],
     )
 
-    main = client.create_tweet(text=tweet_text)
+    media_ids = []
+
+    # 画像が存在する場合はアップロードを実行
+    if image_path and Path(image_path).exists():
+        print(f"画像をアップロード中: {image_path}")
+        media = api_v1.media_upload(filename=image_path)
+        media_ids.append(media.media_id)
+    elif image_path:
+        print(f"警告: 画像ファイルが存在しません ({image_path})。テキストのみで投稿します。")
+
+    # ポスト送信
+    if media_ids:
+        main = client_v2.create_tweet(text=tweet_text, media_ids=media_ids)
+    else:
+        main = client_v2.create_tweet(text=tweet_text)
+
     tweet_id = main.data["id"]
     print(f"投稿成功: https://x.com/i/web/status/{tweet_id}")
-
-    client.create_tweet(text=reply_url, in_reply_to_tweet_id=tweet_id)
-    print("リプライ（URL）添付完了")
 
 
 if __name__ == "__main__":
     tweets = load_tweets()
-    title, text = pick_tweet(tweets)
+    title, payload = pick_tweet(tweets)
+
+    # 旧形式（文字列のみ）と新形式（辞書型）の両方に対応
+    if isinstance(payload, dict):
+        text = payload.get("text", "")
+        image_path = payload.get("image", None)
+    else:
+        text = payload
+        image_path = None
 
     print(f"選択: {title}")
     print(f"投稿文: {text}  ({len(text)}字)")
+    if image_path:
+        print(f"画像: {image_path}")
 
-    post_with_reply(text, SITE_URL)
+    post_tweet(text, image_path)
     save_posted(title)
-

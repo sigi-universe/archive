@@ -10,11 +10,9 @@
   "SarasProject": {
     "text": "Phase1: Saras transplantation, 12-segment separation and pressure-resistant packing. Phase2: In-transit synchronization and drive system adjustment. Phase3:On-site reassembly of all segments and startup testing. Phase4:Phased operational training starting from shallow waters. Drilling Procedure ROV separation and descent, anchor deployment, vertical shaft excavation and wall hardening, and colloid sampling.",
     "image": "images/saras.png"
-  }
+  },
   "Thornhill1": {
     "text": "The low, gentle sunlight glinted off the cobblestones, the cathedral dome, and the puddles, bathing the entire city in a soft golden glow. The clatter of iron wheels on stone, the whistles of ships navigating the waterways, and the cries of street vendors mingled together as the morning hum gently enveloped the city.",
     "image": "images/Thornhill1.png"
   }
-
-  
 }

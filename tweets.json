@@ -14,5 +14,9 @@
   "Thornhill1": {
     "text": "The low, gentle sunlight glinted off the cobblestones, the cathedral dome, and the puddles, bathing the entire city in a soft golden glow. The clatter of iron wheels on stone, the whistles of ships navigating the waterways, and the cries of street vendors mingled together as the morning hum gently enveloped the city.",
     "image": "images/Thornhill1.png"
+  },
+  "Acrab": {
+    "text": "Shadow of the cosmic scorpion: not a beast that devours stars, but a cradle hatching them. Its blue eyes watch a new life born from glowing magma. Before this grand spectacle, the lone human stands completely overwhelmed by his own insignificance and the universe's profound mystery.",
+    "image": "images/Acrab.png"
   }
 }

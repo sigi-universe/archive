@@ -2,7 +2,8 @@ name: Daily Tweet Bot
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 毎日 JST 12:00（UTC 03:00）
+    # 毎日2回実行（JST 12:00 と 21:00 ＝ UTC 03:00 と 12:00）
+    - cron: '0 3,12 * * *'
   workflow_dispatch:
 
 jobs:

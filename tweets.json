@@ -1,4 +1,28 @@
 {
+  "mansion_exit_01": {
+    "text": "When he left the mansion, he realized he had nowhere to go. The old town near the windswept harbor was dim and deserted as the snow began to fall. Driven by the chilling air blowing from the river,he started walking aimlessly.",
+    "image": "images/u9691258498_A_cinematic_low-angle_shot_looking_up_a_steep_nar_d0281010-a450-4e40-b060-985e4e9d0d52_0.png"
+  },
+  "AcrabHall": {
+    "text": "In the Council Hall of the Independent Labor Confederation, an emigration plan was being carefully deliberated.",
+    "image": "images/AcrabHall.png"
+  },
+  "SarasProject": {
+    "text": "Phase1: Saras transplantation, 12-segment separation and pressure-resistant packing. Phase2: In-transit synchronization and drive system adjustment. Phase3:On-site reassembly of all segments and startup testing. Phase4:Phased operational training starting from shallow waters. Drilling Procedure ROV separation and descent, anchor deployment, vertical shaft excavation and wall hardening, and colloid sampling.",
+    "image": "images/saras.png"
+  },
+  "Thornhill1": {
+    "text": "The low, gentle sunlight glinted off the cobblestones, the cathedral dome, and the puddles, bathing the entire city in a soft golden glow. The clatter of iron wheels on stone, the whistles of ships navigating the waterways, and the cries of street vendors mingled together as the morning hum gently enveloped the city.",
+    "image": "images/Thornhill1.png"
+  },
+  "Acrab": {
+    "text": "Shadow of the cosmic scorpion: not a beast that devours stars, but a cradle hatching them. Its blue eyes watch a new life born from glowing magma. Before this grand spectacle, the lone human stands completely overwhelmed by his own insignificance and the universe's profound mystery.",
+    "image": "images/Acrab.png"
+  },
+  "Drop": {
+    "text": "What struck me above all was the stench.The colossus collapsed, and the relay shrieked. It was all to conceal the plan.The ancient calendar was right. To the bottom of the storm. Beneath the comet of Kvaarni.",
+    "image": "images/Drop.jpg"
+  },
   "giant": {
     "text": "It crawls out from between the rocks to feast on the blood of giants.",
     "image": "images/rocks.png"

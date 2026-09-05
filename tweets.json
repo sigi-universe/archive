@@ -34,5 +34,9 @@
   "FlyingAltar": {
     "text": "It was called the Flying Altar. Whether it came from the far reaches of space, or had been there all along, remains unknown. The only certainty is that, cold as it was, its wings were waiting to spring to life.",
     "image": "images/FlyingAltar.png"
+  },
+  "journey": {
+    "text": "I lost track of time long ago. The reason for my journey has faded into memory. Yet one truth remains: I will not turn back.",
+    "image": "images/journey.png"
   }
 }

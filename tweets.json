@@ -26,5 +26,10 @@
   "giant": {
     "text": "It crawls out from between the rocks to feast on the blood of giants.",
     "image": "images/rocks.png"
+  },
+  "Through": {
+    "text": "Through the gaps in the clouds, the trembling stars peer down, while on the distant horizon, purple haze smolders—a grim foreboding of the returning storm. Before the fury of the seven moons swells once more and the tempest consumes this land, the pilgrimage must press on.",
+    "image": "images/Through.png"
   }
+}
 }

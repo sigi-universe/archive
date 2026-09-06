@@ -38,5 +38,9 @@
   "journey": {
     "text": "I lost track of time long ago. The reason for my journey has faded into memory. Yet one truth remains: I will not turn back.",
     "image": "images/journey.png"
+  },
+  "Mirage": {
+    "text": "Passing under the rock, traveling endlessly, the mirror city will finally greet you when the sea breeze slips between the towers and reaches the cave.",
+    "image": "images/Mirage.png"
   }
 }

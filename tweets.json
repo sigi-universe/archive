@@ -43,8 +43,12 @@
     "text": "Passing under the rock, traveling endlessly, the mirror city will finally greet you when the sea breeze slips between the towers and reaches the cave.",
     "image": "images/Mirage.png"
   },
-  "Mirage": {
+  "HighTower": {
     "text": "A heavy metallic echo pierces the dense fog,\nreverberating down the ancient stone corridor.\n\nthe silent priest.\nmr. hightower.\n\nonce a pillar of this realm,\nnow the master of the key that keeps the dark at bay.\n\nanother night.\nanother quiet patrol into the void.",
     "image": "images/HighTower.png"
+  },
+  "submarine": {
+    "text": "As I look out through the glass at the silent underwater world unfolding before me, I wait for the lights of our destination—the floating domes—to appear in the distance.",
+    "image": "images/submarine.png"
   }
 }

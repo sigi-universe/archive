@@ -50,5 +50,9 @@
   "submarine": {
     "text": "As I look out through the glass at the silent underwater world unfolding before me, I wait for the lights of our destination—the floating domes—to appear in the distance.",
     "image": "images/submarine.png"
+  },
+  "Cattle": {
+    "text": "Washed ashore from the shattered submersible, he found himself in a pitch-black cavern untouched by the deep-sea pressure.\nThe beam of his light illuminated a colossal statue carved from an unknown mineral—a monstrous figure with writhing tentacles: the \"Arbiter of Silence\" foretold by ancient star charts.\nCountless geometric glyphs etched into the pedestal. The scan device spat out a precise sequence—matching the prehistoric organisms that once underwent an evolutionary explosion on distant Earth.\nOn his chest, the indicator blinked green.\nUNANALYZABLE SIGNAL DETECTED—DATA UPLOAD IN PROGRESS\nA thread of light ran across the statue’s surface, locking onto Elias. The wordless harvest had quietly begun.",
+    "image": "images/Cattle.png"
   }
 }

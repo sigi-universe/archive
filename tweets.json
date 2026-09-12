@@ -58,5 +58,9 @@
   "Haste": {
     "text": "Make haste, lest we lack the breath for speech.\nToll the bell and call back forgotten days.\nTo the Forge-God, his scion, and his bloodline,\nWhere every smile dissolves in quiet hill.",
     "image": "images/Haste.png"
+  },
+  "LetterCity": {
+    "text": "In the deepest depths of the Letter-City, where the faint scent of ink hung in the air, an old man stood watch as a dying language faded away.\nOne by one, those who spoke it had departed, until at last the final context fractured, dissolving silently into the walls.",
+    "image": "images/LetterCity.png"
   }
 }

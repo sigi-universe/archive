@@ -62,5 +62,9 @@
   "LetterCity": {
     "text": "In the deepest depths of the Letter-City, where the faint scent of ink hung in the air, an old man stood watch as a dying language faded away.\nOne by one, those who spoke it had departed, until at last the final context fractured, dissolving silently into the walls.",
     "image": "images/LetterCity.png"
+  },
+  "nightmare": {
+    "text": "I still didn't doubt for a moment that it was just a nightmare I couldn't wake up from.\n\nI wanted it to be a nightmare.\nI wanted to wake up in a soft bed and greet the morning as usual. How I wished that were true.\n\nThere was no turning back anymore.\n\nInto this endless reality, I simply step forward, one footprint at a time.",
+    "image": "images/nightmare.png"
   }
 }

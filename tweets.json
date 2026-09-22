@@ -70,5 +70,9 @@
   "nightmare": {
     "text": "At the base of the tendon, there was a strange warmth.\n\nOn the top tier at its feet, engineers are at work.\n\nOutside, a silence of minus thirty degrees stretches out.\n\nA rhythmic pulsation resonates through the city.",
     "image": "images/BaseOF.png"
+  },
+  "Chalcographia": {
+    "text": "Nomos's envoy then led me to the graveyard.\n\nI had imagined somewhere rather desolate, but it was closer to a library.\n\nThe end of this species apparently becomes some kind of communication device, or a chalcographia.",
+    "image": "Chalcographia.png"
   }
 }

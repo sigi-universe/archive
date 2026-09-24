@@ -74,5 +74,9 @@
   "Chalcographia": {
     "text": "Nomos's envoy then led me to the graveyard.\n\nI had imagined somewhere rather desolate, but it was closer to a library.\n\nThe end of this species apparently becomes some kind of communication device, or a chalcographia.",
     "image": "Chalcographia.png"
+  },
+  "Storm": {
+    "text": "The storm season arrives; the people retreat to the city.\n\nWhen the damp marsh air, swept in from the inland sea by rising waters, meets the scorching exhaust billowed from the plants of Warghartin, Rocky's Gate is shrouded in dense fog.\n\nClad in heavy plate and peering through the narrow lenses of their gas masks at the soot-stained streets, the Rescuing Knights advance into the gloom.",
+    "image": "Storm.png"
   }
 }

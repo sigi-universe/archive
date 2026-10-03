@@ -2,8 +2,8 @@ name: Daily Tweet Bot
 
 on:
   schedule:
-    # 毎日4回実行（JST 0:00, 6:00, 12:00, 18:00 ＝ UTC 15:00, 21:00, 03:00, 09:00）
-    - cron: '0 15,21,3,9 * * *'
+    # 毎日1回実行（JST 21:00 ＝ UTC 12:00）
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -18,8 +18,6 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v7
-        with:
-          python-version: '3.12'
 
       - name: Install dependencies
         run: |
